@@ -1,0 +1,1033 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.9.0-Master">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>602184.672259</xmin>
+            <ymin>220012.646737</ymin>
+            <xmax>625131.394163</xmax>
+            <ymax>238051.249512</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>1919</srsid>
+                <srid>21781</srid>
+                <authid>EPSG:21781</authid>
+                <description>CH1903 / LV03</description>
+                <projectionacronym>somerc</projectionacronym>
+                <ellipsoidacronym>bessel</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hektarraster (200m)" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="hektarraster20140210111632875" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="0" open="true" checked="Qt::Checked" name="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gemeinde_operate20140207123332478" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="6" open="true" checked="Qt::Checked" name="Toleranzstufe TS2" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="tseinteilung_toleranzstufe20140207125251551" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="CHENyx06">
+            <legendlayer drawingOrder="2" open="true" checked="Qt::Checked" name="TSP" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="chenyx06_tsp_lv0320140207160706218" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="3" open="true" checked="Qt::Unchecked" name="Dreiecksvermaschung" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="chenyx06_lv0320140207155809498" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Hintergrundkarten">
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Amtliche_Vermessung__schwarz_weiss_20140207125144331" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="Basisplan schwarz-weiss 1:10000" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Basisplan_schwarz_weiss_1_1000020140207125207395" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <Composer title="Druckzusammenstellung 1" visible="0">
+        <Composition printResolution="300" paperWidth="420" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="1">
+            <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewFrameMap="-1">
+                    <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="255,0,0,125"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="219395" xmin="600343" ymax="219989" xmax="601183"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="0">
+                    <symbol outputUnit="MM" alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Bitstream Vera Sans,9,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0"/>
+                </Grid>
+                <ComposerItem width="420" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.40758" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <projectlayers layercount="7">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Amtliche_Vermessung__schwarz_weiss_20140207125144331</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Amtliche%20Vermessung%20(schwarz-weiss)&amp;styles=&amp;url=http://srsofaioi12288.ktso.ch/wms/grundbuchplan</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Amtliche Vermessung (schwarz-weiss)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Basisplan_schwarz_weiss_1_1000020140207125207395</id>
+            <datasource>/sogis/daten_aktuell/kva/basisplan/bpav10000sw/bpav10000sw.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Basisplan schwarz-weiss 1:10000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+                <rasterTransparency>
+                    <singleValuePixelList>
+                        <pixelListEntry min="0" max="0" percentTransparent="100"/>
+                    </singleValuePixelList>
+                </rasterTransparency>
+                <colorPalette>
+                    <paletteEntry value="0" color="#ffffff"/>
+                    <paletteEntry value="1" color="#000000"/>
+                </colorPalette>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>chenyx06_lv0320140207155809498</id>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_lokale_entzerrung"."chenyx06_lv03" (wkb_geometry) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Dreiecksvermaschung</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="172,139,243,255"/>
+                            <prop k="color_border" v="170,170,170,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.3"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Beschriftung"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="nummer"/>
+                <edittype type="0" name="ogc_fid"/>
+            </edittypes>
+            <editorlayout>tablayout</editorlayout>
+            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editforminit></editforminit>
+            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>chenyx06_tsp_lv0320140207160706218</id>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."chenyx06_tsp_lv03" (wkb_geometry) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>TSP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#0055ff"/>
+                            <prop k="name" v="/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="5"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="1"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="nummer"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="10"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="255"/>
+                <property key="labeling/textColorG" value="85"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Beschriftung"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="nummer"/>
+                <edittype type="0" name="ogc_fid"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editforminit></editforminit>
+            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>gemeinde_operate20140207123332478</id>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_lokale_entzerrung"."gemeinde_operate" (wkb_geometry) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Alte Gemeindegrenzen / Operatsgrenzen</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="181,0,0,255"/>
+                            <prop k="color_border" v="181,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.4"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Beschriftung"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="bemerkungen"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="gemeinde"/>
+                <edittype type="0" name="gemeinde_operat"/>
+                <edittype type="0" name="go_gem_bfs"/>
+                <edittype type="0" name="ogc_fid"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editforminit></editforminit>
+            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>hektarraster20140210111632875</id>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_lokale_entzerrung"."hektarraster" (wkb_geometry) sql="operat_bfs" = 2448</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Hektarraster (200m)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="107,200,243,255"/>
+                            <prop k="color_border" v="145,217,217,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.4"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Beschriftung"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="go_gem_bfs"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="operat_bfs"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editforminit></editforminit>
+            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="25000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>tseinteilung_toleranzstufe20140207125251551</id>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avdpool_ng"."tseinteilung_toleranzstufe" (geometrie) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Toleranzstufe TS2</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 attr="art_txt" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="TS2" label="TS2"/>
+                </categories>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="255,222,250,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="2"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="215,208,121,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="247,251,255,255"/>
+                    <prop k="color2" v="8,48,107,255"/>
+                    <prop k="discrete" v="0"/>
+                    <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+                </colorramp>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Beschriftung"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="art"/>
+                <edittype type="0" name="art_txt"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="gueltigereintrag"/>
+                <edittype type="0" name="identifikator"/>
+                <edittype type="0" name="lieferdatum"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="nbident"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="tid"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editforminit></editforminit>
+            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:21781</ProjectCrs>
+            <ProjectCRSID type="int">1919</ProjectCRSID>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
