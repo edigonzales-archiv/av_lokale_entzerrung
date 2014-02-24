@@ -63,11 +63,11 @@
     <notepad>
       <note>TSP-Messungen gehen verloren!
 -&gt; Manuell kontrollieren und dokumentieren
-(Nicht sinnvoll zu kombinieren, da man zum Voraus nicht 
+(Nicht sinnvoll zu kombinieren, da man im Voraus nicht 
 weiss welche TSP gemessen werden).</note>
       <xloc>1010</xloc>
       <yloc>139</yloc>
-      <width>320</width>
+      <width>310</width>
       <heigth>62</heigth>
     </notepad>
   </notepads>

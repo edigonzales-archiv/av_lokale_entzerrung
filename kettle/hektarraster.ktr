@@ -129,9 +129,10 @@ FROM
          SELECT ST_XMin(geometrie) as xmin, ST_YMin(geometrie) as ymin, ST_XMax(geometrie) as xmax, ST_YMax(geometrie) as ymax 
          FROM
          (
-          SELECT gem_bfs, geometrie
+          SELECT gem_bfs,  ST_Union (geometrie) as geometrie
           FROM av_avdpool_ng.tseinteilung_toleranzstufe
           WHERE art = 1
+          GROUP BY gem_bfs
          ) as ts,
          (
           SELECT operat_bfs, gem_bfs, wkb_geometry
@@ -151,7 +152,7 @@ FROM
  SELECT gem.operat_bfs, gem.gem_bfs, ts.geometrie
  FROM
  (
-  SELECT gem_bfs, geometrie
+  SELECT gem_bfs,  geometrie
   FROM av_avdpool_ng.tseinteilung_toleranzstufe
   WHERE art = 1
  ) as ts,
