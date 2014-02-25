@@ -202,8 +202,8 @@ AND ST_Intersects(tol.geometrie, ha.geom);</sql>
     </arguments>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>146</xloc>
-      <yloc>93</yloc>
+      <xloc>147</xloc>
+      <yloc>92</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

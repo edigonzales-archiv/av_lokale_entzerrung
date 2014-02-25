@@ -40,6 +40,10 @@ CREATE TABLE av_lokale_entzerrung.lagefixpunkte
   geometrie_lv95_trans geometry,
   geometrie_lv95_gemessen geometry,
   operat_bfs integer,
+  dy double precision,
+  dx double precision,
+  dh double precision,
+  fs double precision,  
   CONSTRAINT lagefixpunkte_pkey PRIMARY KEY (ogc_fid)
 ) WITH (
   OIDS=FALSE
@@ -82,6 +86,9 @@ CREATE TABLE av_lokale_entzerrung.grenzpunkte
   geometrie_lv95_trans geometry,
   geometrie_lv95_gemessen geometry,
   operat_bfs integer,
+  dy double precision,
+  dx double precision,
+  fs double precision,  
   CONSTRAINT grenzpunkte_pkey PRIMARY KEY (ogc_fid)
 ) WITH (
   OIDS=FALSE

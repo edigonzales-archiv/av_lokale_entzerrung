@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>tr_messung2db</name>
+    <name>tr_messung_gp2db</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -116,7 +116,32 @@ weiss welche TSP gemessen werden).</note>
     </attributes>
   </connection>
   <order>
-  <hop> <from>CSV file input</from><to>GeomFromText</to><enabled>Y</enabled> </hop>  <hop> <from>GeomFromText</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Länge von PktNr</to><enabled>Y</enabled> </hop>  <hop> <from>Länge von PktNr</from><to>Nur LFP</to><enabled>Y</enabled> </hop>  <hop> <from>Nur LFP</from><to>LFP sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>Nur LFP</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>LFP aus DB</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>LFP sortieren</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>TransPunkt als String</to><enabled>Y</enabled> </hop>  <hop> <from>TransPunkt als String</from><to>TransPunktString splitten</to><enabled>Y</enabled> </hop>  <hop> <from>TransPunktString splitten</from><to>Differenzen bilden</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten</from><to>Update geometrie_lv95_gemessen</to><enabled>Y</enabled> </hop>  <hop> <from>Differenzen bilden</from><to>Fs berechnen</to><enabled>Y</enabled> </hop>  <hop> <from>Fs berechnen</from><to>mm Faktor Konstante</to><enabled>Y</enabled> </hop>  <hop> <from>mm Faktor Konstante</from><to>Umrechnen in mm</to><enabled>Y</enabled> </hop>  <hop> <from>Umrechnen in mm</from><to>Ausmisten</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Konstante = 1 hinzufügen</to><enabled>Y</enabled> </hop>  <hop> <from>Konstante = 1 hinzufügen</from><to>Konstante gruppieren</to><enabled>Y</enabled> </hop>  <hop> <from>Konstante gruppieren</from><to>Anzahl gemeinsame Punkte</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>CSV file input</from><to>GeomFromText</to><enabled>Y</enabled> </hop>  <hop> <from>GeomFromText</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Länge von PktNr</to><enabled>Y</enabled> </hop>  <hop> <from>Länge von PktNr</from><to>Nur GP (= 12 Zeichen lang)</to><enabled>Y</enabled> </hop>  <hop> <from>Nur GP (= 12 Zeichen lang)</from><to>GP sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>Nur GP (= 12 Zeichen lang)</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>GP aus DB</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>GP sortieren</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>TransPunkt als String</to><enabled>Y</enabled> </hop>  <hop> <from>TransPunkt als String</from><to>TransPunktString splitten</to><enabled>Y</enabled> </hop>  <hop> <from>TransPunktString splitten</from><to>Differenzen bilden</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten</from><to>Update geometrie_lv95_gemessen</to><enabled>Y</enabled> </hop>  <hop> <from>Differenzen bilden</from><to>Fs berechnen</to><enabled>Y</enabled> </hop>  <hop> <from>Fs berechnen</from><to>mm Faktor Konstante</to><enabled>Y</enabled> </hop>  <hop> <from>mm Faktor Konstante</from><to>Umrechnen in mm</to><enabled>Y</enabled> </hop>  <hop> <from>Umrechnen in mm</from><to>Ausmisten</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Konstante = 1 hinzufügen</to><enabled>Y</enabled> </hop>  <hop> <from>Konstante = 1 hinzufügen</from><to>Konstante gruppieren</to><enabled>Y</enabled> </hop>  <hop> <from>Konstante gruppieren</from><to>Anzahl gemeinsame Punkte</to><enabled>Y</enabled> </hop>  </order>
+  <step>
+    <name>Anzahl gemeinsame Punkte</name>
+    <type>WriteToLog</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <loglevel>log_level_basic</loglevel>
+      <displayHeader>Y</displayHeader>
+    <fields>
+      <field>
+        <name>gemeinsame_punkte</name>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1105</xloc>
+      <yloc>403</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>Ausmisten</name>
     <type>SelectValues</type>
@@ -139,10 +164,6 @@ weiss welche TSP gemessen werden).</note>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>hoehe_gemessen</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
       </field>      <field>        <name>geometrie_lv95_gemessen</name>
         <rename/>
         <length>-2</length>
@@ -159,14 +180,6 @@ weiss welche TSP gemessen werden).</note>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dh_mm</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>      <field>        <name>Z</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
       </field>      <field>        <name>fs_mm</name>
         <rename/>
         <length>-2</length>
@@ -175,7 +188,7 @@ weiss welche TSP gemessen werden).</note>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>182</xloc>
-      <yloc>279</yloc>
+      <yloc>280</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -309,22 +322,6 @@ weiss welche TSP gemessen werden).</note>
 <grouping_symbol/>
 <currency_symbol/>
 </calculation>
-       <calculation><field_name>h_diff</field_name>
-<calc_type>SUBTRACT</calc_type>
-<field_a>Z</field_a>
-<field_b>hoehe</field_b>
-<field_c/>
-<field_d/>
-<field_e/>
-<value_type>-</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>772</xloc>
@@ -347,6 +344,40 @@ weiss welche TSP gemessen werden).</note>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>603</xloc>
       <yloc>137</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Fs berechnen</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+       <calculation><field_name>fs_gemessen</field_name>
+<calc_type>COMBINATION_2</calc_type>
+<field_a>y_diff</field_a>
+<field_b>x_diff</field_b>
+<field_c/>
+<field_d/>
+<field_e/>
+<value_type>Number</value_type>
+<value_length>-1</value_length>
+<value_precision>-1</value_precision>
+<remove>N</remove>
+<conversion_mask/>
+<decimal_symbol/>
+<grouping_symbol/>
+<currency_symbol/>
+</calculation>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>592</xloc>
+      <yloc>287</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -386,7 +417,77 @@ weiss welche TSP gemessen werden).</note>
     </step>
 
   <step>
-    <name>LFP aus DB</name>
+    <name>Konstante = 1 hinzufügen</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>dummy</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>1</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1104</xloc>
+      <yloc>241</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Konstante gruppieren</name>
+    <type>GroupBy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <all_rows>N</all_rows>
+      <ignore_aggregate>N</ignore_aggregate>
+      <field_ignore/>
+      <directory>%%java.io.tmpdir%%</directory>
+      <prefix>grp</prefix>
+      <add_linenr>N</add_linenr>
+      <linenr_fieldname/>
+      <give_back_row>N</give_back_row>
+      <group>
+        <field>
+          <name>dummy</name>
+        </field>
+      </group>
+      <fields>
+        <field>
+          <aggregate>gemeinsame_punkte</aggregate>
+          <subject>dummy</subject>
+          <type>SUM</type>
+          <valuefield/>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1105</xloc>
+      <yloc>319</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>GP aus DB</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -397,7 +498,7 @@ weiss welche TSP gemessen werden).</note>
            </partitioning>
     <connection>srsofaioi4531</connection>
     <sql>SELECT *
-FROM av_lokale_entzerrung.lagefixpunkte
+FROM av_lokale_entzerrung.grenzpunkte
 WHERE operat_bfs = 2522
 ORDER BY nummer;</sql>
     <limit>0</limit>
@@ -414,7 +515,7 @@ ORDER BY nummer;</sql>
     </step>
 
   <step>
-    <name>LFP sortieren</name>
+    <name>GP sortieren</name>
     <type>SortRows</type>
     <description/>
     <distribute>Y</distribute>
@@ -439,8 +540,8 @@ ORDER BY nummer;</sql>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>723</xloc>
-      <yloc>42</yloc>
+      <xloc>727</xloc>
+      <yloc>45</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -489,8 +590,8 @@ var nr_length = Nr.getStringLength();
            <schema_name/>
            </partitioning>
 <join_type>INNER</join_type>
-<step1>LFP sortieren</step1>
-<step2>LFP aus DB</step2>
+<step1>GP sortieren</step1>
+<step2>GP aus DB</step2>
     <keys_1>
       <key>Nr</key>
     </keys_1>
@@ -506,7 +607,7 @@ var nr_length = Nr.getStringLength();
     </step>
 
   <step>
-    <name>Nur LFP</name>
+    <name>Nur GP (= 12 Zeichen lang)</name>
     <type>FilterRows</type>
     <description/>
     <distribute>Y</distribute>
@@ -515,13 +616,13 @@ var nr_length = Nr.getStringLength();
            <method>none</method>
            <schema_name/>
            </partitioning>
-<send_true_to>LFP sortieren</send_true_to>
+<send_true_to>GP sortieren</send_true_to>
 <send_false_to>Dummy (do nothing)</send_false_to>
     <compare>
 <condition>
  <negated>N</negated>
  <leftvalue>nr_length</leftvalue>
- <function>&lt;&gt;</function>
+ <function>=</function>
  <rightvalue/>
  <value><name>constant</name><type>Integer</type><text>12</text><length>-1</length><precision>0</precision><isnull>N</isnull><mask>#;-#</mask></value> </condition>
     </compare>
@@ -638,134 +739,6 @@ var nr_length = Nr.getStringLength();
     </step>
 
   <step>
-    <name>Update geometrie_lv95_gemessen</name>
-    <type>Update</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>srsofaioi4531</connection>
-    <skip_lookup>N</skip_lookup>
-    <commit>100</commit>
-    <error_ignored>N</error_ignored>
-    <ignore_flag_field/>
-    <lookup>
-      <schema>av_lokale_entzerrung</schema>
-      <table>lagefixpunkte</table>
-      <key>
-        <name>nummer</name>
-        <field>nummer</field>
-        <condition>=</condition>
-        <name2/>
-        </key>
-      <key>
-        <name>operat_bfs</name>
-        <field>operat_bfs</field>
-        <condition>=</condition>
-        <name2/>
-        </key>
-      <value>
-        <name>geometrie_lv95_gemessen</name>
-        <rename>the_geom</rename>
-        </value>
-      <value>
-        <name>hoehe_gemessen</name>
-        <rename>Z</rename>
-        </value>
-      <value>
-        <name>dy</name>
-        <rename>dy_mm</rename>
-        </value>
-      <value>
-        <name>dx</name>
-        <rename>dx_mm</rename>
-        </value>
-      <value>
-        <name>dh</name>
-        <rename>dh_mm</rename>
-        </value>
-      <value>
-        <name>fs</name>
-        <rename>fs_mm</rename>
-        </value>
-      </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>49</xloc>
-      <yloc>279</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Fs berechnen</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-       <calculation><field_name>fs_gemessen</field_name>
-<calc_type>COMBINATION_2</calc_type>
-<field_a>y_diff</field_a>
-<field_b>x_diff</field_b>
-<field_c/>
-<field_d/>
-<field_e/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>592</xloc>
-      <yloc>287</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>mm Faktor Konstante</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>mm_faktor</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>1000</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>446</xloc>
-      <yloc>284</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
     <name>Umrechnen in mm</name>
     <type>Calculator</type>
     <description/>
@@ -807,22 +780,6 @@ var nr_length = Nr.getStringLength();
 <grouping_symbol/>
 <currency_symbol/>
 </calculation>
-       <calculation><field_name>dh_mm</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>h_diff</field_a>
-<field_b>mm_faktor</field_b>
-<field_c/>
-<field_d/>
-<field_e/>
-<value_type>-</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
        <calculation><field_name>fs_mm</field_name>
 <calc_type>MULTIPLY</calc_type>
 <field_a>fs_gemessen</field_a>
@@ -841,15 +798,15 @@ var nr_length = Nr.getStringLength();
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>285</xloc>
+      <xloc>312</xloc>
       <yloc>279</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Konstante gruppieren</name>
-    <type>GroupBy</type>
+    <name>Update geometrie_lv95_gemessen</name>
+    <type>Update</type>
     <description/>
     <distribute>Y</distribute>
     <copies>1</copies>
@@ -857,37 +814,53 @@ var nr_length = Nr.getStringLength();
            <method>none</method>
            <schema_name/>
            </partitioning>
-      <all_rows>N</all_rows>
-      <ignore_aggregate>N</ignore_aggregate>
-      <field_ignore/>
-      <directory>%%java.io.tmpdir%%</directory>
-      <prefix>grp</prefix>
-      <add_linenr>N</add_linenr>
-      <linenr_fieldname/>
-      <give_back_row>N</give_back_row>
-      <group>
-        <field>
-          <name>dummy</name>
-        </field>
-      </group>
-      <fields>
-        <field>
-          <aggregate>gemeinsame_punkte</aggregate>
-          <subject>dummy</subject>
-          <type>SUM</type>
-          <valuefield/>
-        </field>
-      </fields>
+    <connection>srsofaioi4531</connection>
+    <skip_lookup>N</skip_lookup>
+    <commit>100</commit>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field/>
+    <lookup>
+      <schema>av_lokale_entzerrung</schema>
+      <table>grenzpunkte</table>
+      <key>
+        <name>nummer</name>
+        <field>nummer</field>
+        <condition>=</condition>
+        <name2/>
+        </key>
+      <key>
+        <name>operat_bfs</name>
+        <field>operat_bfs</field>
+        <condition>=</condition>
+        <name2/>
+        </key>
+      <value>
+        <name>geometrie_lv95_gemessen</name>
+        <rename>the_geom</rename>
+        </value>
+      <value>
+        <name>dy</name>
+        <rename>dy_mm</rename>
+        </value>
+      <value>
+        <name>dx</name>
+        <rename>dx_mm</rename>
+        </value>
+      <value>
+        <name>fs</name>
+        <rename>fs_mm</rename>
+        </value>
+      </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1105</xloc>
-      <yloc>319</yloc>
+      <xloc>49</xloc>
+      <yloc>278</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Konstante = 1 hinzufügen</name>
+    <name>mm Faktor Konstante</name>
     <type>Constant</type>
     <description/>
     <distribute>Y</distribute>
@@ -898,46 +871,21 @@ var nr_length = Nr.getStringLength();
            </partitioning>
     <fields>
       <field>
-        <name>dummy</name>
+        <name>mm_faktor</name>
         <type>Integer</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
-        <nullif>1</nullif>
+        <nullif>1000</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1104</xloc>
-      <yloc>241</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Anzahl gemeinsame Punkte</name>
-    <type>WriteToLog</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-    <fields>
-      <field>
-        <name>gemeinsame_punkte</name>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1105</xloc>
-      <yloc>403</yloc>
+      <xloc>446</xloc>
+      <yloc>284</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
