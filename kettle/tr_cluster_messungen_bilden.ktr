@@ -139,7 +139,7 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>285</xloc>
+      <xloc>255</xloc>
       <yloc>83</yloc>
       <draw>Y</draw>
       </GUI>
@@ -191,6 +191,32 @@
     </step>
 
   <step>
+    <name>Set SRS</name>
+    <type>SetSRS</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<field_name>the_geom</field_name>
+<actual_gui_status>1</actual_gui_status>
+    <selected_srs>
+<authority>EPSG</authority>
+<srid>21781</srid>
+<description>CH1903 &#47; LV03</description>
+<is_custom>N</is_custom>
+    </selected_srs>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>386</xloc>
+      <yloc>84</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Vorhandene Cluster löschen</name>
     <type>ExecSQL</type>
     <description/>
@@ -214,32 +240,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>98</xloc>
       <yloc>82</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Set SRS</name>
-    <type>SetSRS</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<field_name>the_geom</field_name>
-<actual_gui_status>1</actual_gui_status>
-    <selected_srs>
-<authority>EPSG</authority>
-<srid>21781</srid>
-<description>CH1903 &#47; LV03</description>
-<is_custom>N</is_custom>
-    </selected_srs>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>386</xloc>
-      <yloc>84</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

@@ -12,11 +12,6 @@
   <modified_date>2014&#47;02&#47;26 17:32:53.477</modified_date>
     <parameters>
         <parameter>
-            <name>CSV_MESSFILE</name>
-            <default_value>dummy.csv</default_value>
-            <description>null</description>
-        </parameter>
-        <parameter>
             <name>MY_HOME</name>
             <default_value>/home/stefan/tmp</default_value>
             <description>null</description>

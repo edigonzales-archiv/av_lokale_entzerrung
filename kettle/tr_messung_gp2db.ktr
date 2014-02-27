@@ -203,7 +203,7 @@ weiss welche TSP gemessen werden).</note>
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>${MY_HOME}&#47;${CSV_MESSFILE}</filename>
+    <filename>${MY_HOME}&#47;${OPERAT_BFS}.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
