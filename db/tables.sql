@@ -1,4 +1,13 @@
-﻿CREATE TABLE av_lokale_entzerrung.gemeinde_operate
+﻿CREATE SCHEMA av_lokale_entzerrung
+  AUTHORIZATION av_verifikation;
+
+GRANT ALL ON SCHEMA av_lokale_entzerrung TO av_verifikation;
+GRANT USAGE ON SCHEMA av_lokale_entzerrung TO mspublic;
+
+-----------------------------------------
+
+
+CREATE TABLE av_lokale_entzerrung.gemeinde_operate
 (
   ogc_fid serial NOT NULL,
   gemeinde_operat character varying,
