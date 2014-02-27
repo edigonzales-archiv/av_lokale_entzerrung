@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>tr_qgis_projekt_feldplan</name>
+    <name>tr_qgis_projekt_auswertung</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_status>0</trans_status>
     <directory>&#47;</directory>
     <parameters>
+        <parameter>
+            <name>QGIS_PROJEKTNAME</name>
+            <default_value>feldplan</default_value>
+            <description>null</description>
+        </parameter>
     </parameters>
     <log>
       <read/>
@@ -112,7 +117,7 @@
     <connection>srsofaioi4531</connection>
     <sql>SELECT projektname, replace(qgs_string, &apos;$$OPERAT_BFS&apos;, &apos;${OPERAT_BFS}&apos;) as qgs_string 
 FROM av_lokale_entzerrung.qgis_projekte
-WHERE projektname = &apos;feldplan&apos;
+WHERE projektname = &apos;auswertung&apos;
 </sql>
     <limit>0</limit>
     <lookup/>
@@ -149,7 +154,7 @@ WHERE projektname = &apos;feldplan&apos;
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>${MY_HOME}&#47;${OPERAT_BFS}_${OPERAT_NAME}_feldplan</name>
+      <name>${MY_HOME}&#47;${OPERAT_BFS}_${OPERAT_NAME}_auswertung</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>qgs</extention>
@@ -181,8 +186,8 @@ WHERE projektname = &apos;feldplan&apos;
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>365</xloc>
-      <yloc>59</yloc>
+      <xloc>324</xloc>
+      <yloc>58</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

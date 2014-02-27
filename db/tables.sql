@@ -200,6 +200,31 @@ INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'average_messu
 
 --------------------------------------------
 
+CREATE TABLE av_lokale_entzerrung.operat_statistik
+(
+  ogc_fid serial NOT NULL,
+  fs_mean double precision,
+  fs_stddev double precision,
+  fs_min double precision,
+  fs_max double precision,
+  fs_68 double precision,
+  fs_95 double precision,
+  toleranzstufe integer,
+  operat_bfs integer,
+  CONSTRAINT operat_statistik_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+
+ALTER TABLE av_lokale_entzerrung.operat_statistik OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.operat_statistik TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.operat_statistik TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.operat_statistik TO public;
+
+
+--------------------------------------------
+
 
 CREATE TABLE av_lokale_entzerrung.chenyx06_lv03
 (

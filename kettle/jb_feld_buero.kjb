@@ -14,17 +14,17 @@
         <parameter>
             <name>CSV_MESSFILE</name>
             <default_value>dummy.csv</default_value>
-            <description></description>
+            <description>null</description>
         </parameter>
         <parameter>
             <name>MY_HOME</name>
             <default_value>/home/stefan/tmp</default_value>
-            <description></description>
+            <description>null</description>
         </parameter>
         <parameter>
             <name>OPERAT_BFS</name>
             <default_value>9999</default_value>
-            <description></description>
+            <description>null</description>
         </parameter>
     </parameters>
   <connection>
@@ -98,7 +98,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>89</xloc>
+      <xloc>30</xloc>
       <yloc>123</yloc>
       </entry>
     <entry>
@@ -108,14 +108,126 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>121</yloc>
+      <xloc>39</xloc>
+      <yloc>277</yloc>
       </entry>
     <entry>
       <name>tr_messung_lfp2db</name>
       <description>Transformation</description>
       <type>TRANS</type>
       <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_messung_lfp2db.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>285</xloc>
+      <yloc>122</yloc>
+      </entry>
+    <entry>
+      <name>tr_messung_gp2db</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_messung_gp2db.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>448</xloc>
+      <yloc>121</yloc>
+      </entry>
+    <entry>
+      <name>tr_cluster_messungen_bilden</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_cluster_messungen_bilden.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>622</xloc>
+      <yloc>125</yloc>
+      </entry>
+    <entry>
+      <name>tr_ts2_messpunkte_mitteln_statistik</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_ts2_messpunkte_mitteln_statistik.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>622</xloc>
+      <yloc>273</yloc>
+      </entry>
+    <entry>
+      <name>tr_ts3_messpunkte_mitteln_statistik</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_ts3_messpunkte_mitteln_statistik.ktr</filename>
       <transname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -137,14 +249,108 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>272</xloc>
-      <yloc>122</yloc>
+      <xloc>385</xloc>
+      <yloc>272</yloc>
+      </entry>
+    <entry>
+      <name>tr_operat_name</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_operat_name.ktr</filename>
+      <transname/>
+      <directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>147</xloc>
+      <yloc>123</yloc>
+      </entry>
+    <entry>
+      <name>tr_qgis_projekt_auswertung</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_qgis_projekt_auswertung.ktr</filename>
+      <transname/>
+      <directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>187</xloc>
+      <yloc>274</yloc>
       </entry>
   </entries>
   <hops>
     <hop>
+      <from>tr_messung_lfp2db</from>
+      <to>tr_messung_gp2db</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_messung_gp2db</from>
+      <to>tr_cluster_messungen_bilden</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_cluster_messungen_bilden</from>
+      <to>tr_ts2_messpunkte_mitteln_statistik</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_ts2_messpunkte_mitteln_statistik</from>
+      <to>tr_ts3_messpunkte_mitteln_statistik</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
       <from>START</from>
-      <to>tr_messung_lfp2db</to>
+      <to>tr_operat_name</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -152,7 +358,25 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>tr_messung_lfp2db</from>
+      <from>tr_operat_name</from>
+      <to>tr_messung_lfp2db</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_ts3_messpunkte_mitteln_statistik</from>
+      <to>tr_qgis_projekt_auswertung</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_qgis_projekt_auswertung</from>
       <to>Success 1</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
