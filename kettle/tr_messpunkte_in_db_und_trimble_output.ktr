@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>messpunkte_in_db_und_trimble_output</name>
+    <name>tr_messpunkte_in_db_und_trimble_output</name>
     <description/>
     <extended_description/>
     <trans_version/>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>qgis_projekt_feldplan</name>
+    <name>tr_messpunkte_mitteln</name>
     <description/>
     <extended_description/>
     <trans_version/>
-    <trans_status>0</trans_status>
     <directory>&#47;</directory>
     <parameters>
-        <parameter>
-            <name>QGIS_PROJEKTNAME</name>
-            <default_value>feldplan</default_value>
-            <description>null</description>
-        </parameter>
     </parameters>
     <log>
       <read/>
@@ -54,7 +48,7 @@
     <clusterschemas>
     </clusterschemas>
   <modified_user>-</modified_user>
-  <modified_date>2014&#47;02&#47;07 16:22:56.228</modified_date>
+  <modified_date>2014&#47;02&#47;26 10:44:14.691</modified_date>
   </info>
   <notepads>
   </notepads>
@@ -103,9 +97,9 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>QGIS Projekt aus Datenbank</from><to>QGIS-Projekt Output</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>(Gemittelte) Differenzen TS2</from><to>nach Fs sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>nach Fs sortieren</from><to>Univariate Statistics</to><enabled>Y</enabled> </hop>  </order>
   <step>
-    <name>QGIS Projekt aus Datenbank</name>
+    <name>(Gemittelte) Differenzen TS2</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -115,26 +109,78 @@
            <schema_name/>
            </partitioning>
     <connection>srsofaioi4531</connection>
-    <sql>SELECT projektname, replace(qgs_string, &apos;$$OPERAT_BFS&apos;, &apos;${OPERAT_BFS}&apos;) as qgs_string 
-FROM av_lokale_entzerrung.qgis_projekte
-WHERE projektname = &apos;${QGIS_PROJEKTNAME}&apos;
-</sql>
+    <sql>SELECT dy_avg, dx_avg, sqrt(dy_avg*dy_avg + dx_avg*dx_avg) as fs_avg, ST_PointFromText(&apos;POINT(&apos; || y_avg || &apos; &apos; || x_avg || &apos;)&apos;, 21781) as the_geom
+FROM
+( 
+ SELECT ST_GeoHash(ST_Transform(c.the_geom, 4326), 25) as geohash,  avg(e.dy) as dy_avg, avg(e.dx) as dx_avg, avg(ST_X(geometrie_lv03)) as y_avg, avg(ST_Y(geometrie_lv03)) as x_avg
+ FROM
+ (
+  SELECT 1 as ogc_fid, (ST_Dump(the_geom)).geom as the_geom
+  FROM
+  (
+   SELECT operat_bfs, ST_Union(ST_Buffer(geometrie_lv03, 20)) as the_geom
+   FROM 
+   (
+    SELECT operat_bfs, &apos;gp&apos;::varchar as typ, geometrie_lv03
+    FROM av_lokale_entzerrung.grenzpunkte as gp, av_avdpool_ng.tseinteilung_toleranzstufe as ts 
+    WHERE gp.operat_bfs = 2522 AND fs IS NOT NULL 
+    AND ts.art_txt = &apos;TS2&apos; 
+    AND gp.geometrie_lv03 &amp;&amp; ts.geometrie
+    AND ST_Intersects(gp.geometrie_lv03, ts.geometrie)
+
+    UNION
+
+    SELECT operat_bfs, &apos;fp&apos;::varchar as typ, geometrie_lv03
+    FROM av_lokale_entzerrung.lagefixpunkte as fp, av_avdpool_ng.tseinteilung_toleranzstufe as ts 
+    WHERE fp.operat_bfs = 2522 AND fs IS NOT NULL 
+    AND ts.art_txt = &apos;TS2&apos;
+    AND fp.geometrie_lv03 &amp;&amp; ts.geometrie
+    AND ST_Intersects(fp.geometrie_lv03, ts.geometrie)
+   ) as a
+   GROUP BY operat_bfs
+  ) as b
+ ) as c,
+ (
+  SELECT operat_bfs, typ, geometrie_lv03, dy, dx 
+  FROM 
+  (
+   SELECT operat_bfs, &apos;gp&apos;::varchar as typ, geometrie_lv03, dy, dx
+   FROM av_lokale_entzerrung.grenzpunkte as gp, av_avdpool_ng.tseinteilung_toleranzstufe as ts 
+   WHERE gp.operat_bfs = 2522 AND fs IS NOT NULL 
+   AND ts.art_txt = &apos;TS2&apos; 
+   AND gp.geometrie_lv03 &amp;&amp; ts.geometrie
+   AND ST_Intersects(gp.geometrie_lv03, ts.geometrie)
+
+   UNION
+
+   SELECT operat_bfs, &apos;fp&apos;::varchar as typ, geometrie_lv03, dy, dx
+   FROM av_lokale_entzerrung.lagefixpunkte as fp, av_avdpool_ng.tseinteilung_toleranzstufe as ts 
+   WHERE fp.operat_bfs = 2522 AND fs IS NOT NULL 
+   AND ts.art_txt = &apos;TS2&apos;
+   AND fp.geometrie_lv03 &amp;&amp; ts.geometrie
+   AND ST_Intersects(fp.geometrie_lv03, ts.geometrie)
+  ) as d
+ ) as e
+ WHERE e.geometrie_lv03 &amp;&amp;  c.the_geom
+ AND ST_Intersects(e.geometrie_lv03, c.the_geom)
+ GROUP BY geohash
+) as foo</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
-    <variables_active>Y</variables_active>
+    <variables_active>N</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>120</xloc>
-      <yloc>58</yloc>
+      <xloc>108</xloc>
+      <yloc>110</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>QGIS-Projekt Output</name>
-    <type>TextFileOutput</type>
+    <name>nach Fs sortieren</name>
+    <type>SortRows</type>
     <description/>
     <distribute>Y</distribute>
     <copies>1</copies>
@@ -142,52 +188,62 @@ WHERE projektname = &apos;${QGIS_PROJEKTNAME}&apos;
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <separator/>
-    <enclosure/>
-    <enclosure_forced>N</enclosure_forced>
-    <header>N</header>
-    <footer>N</footer>
-    <format>Unix</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <file>
-      <name>${MY_HOME}&#47;${OPERAT_BFS}_${OPERAT_NAME}_feldplan</name>
-      <is_command>N</is_command>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>qgs</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
+      <directory>%%java.io.tmpdir%%</directory>
+      <prefix>out</prefix>
+      <sort_size/>
+      <free_memory>25</free_memory>
+      <compress>N</compress>
+      <compress_variable/>
+      <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>qgs_string</name>
-        <type>-</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
+        <name>fs_avg</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
       </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>365</xloc>
-      <yloc>59</yloc>
+      <xloc>324</xloc>
+      <yloc>111</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Univariate Statistics</name>
+    <type>UnivariateStats</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+       <univariate_stats><source_field_name>fs_avg</source_field_name>
+<N>N</N>
+<mean>Y</mean>
+<stdDev>Y</stdDev>
+<min>Y</min>
+<max>Y</max>
+<median>N</median>
+<percentile>0.68</percentile>
+<interpolate>Y</interpolate>
+</univariate_stats>
+       <univariate_stats><source_field_name>fs_avg</source_field_name>
+<N>N</N>
+<mean>N</mean>
+<stdDev>N</stdDev>
+<min>N</min>
+<max>N</max>
+<median>N</median>
+<percentile>0.95</percentile>
+<interpolate>Y</interpolate>
+</univariate_stats>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>519</xloc>
+      <yloc>111</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

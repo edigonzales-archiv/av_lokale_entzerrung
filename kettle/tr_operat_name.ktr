@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>hektarraster</name>
+    <name>tr_operat_name</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -49,7 +49,7 @@
     <clusterschemas>
     </clusterschemas>
   <modified_user>-</modified_user>
-  <modified_date>2014&#47;02&#47;07 14:33:47.654</modified_date>
+  <modified_date>2014&#47;02&#47;10 18:10:29.830</modified_date>
   </info>
   <notepads>
   </notepads>
@@ -98,75 +98,21 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Erzeuge 200m-Raster</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Table output</to><enabled>Y</enabled> </hop>  <hop> <from>Hektarraster der Gemeinde (Operat) löschen</from><to>Erzeuge 200m-Raster</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Operatsname</from><to>Set Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Operatsname</from><to>Write to log</to><enabled>Y</enabled> </hop>  </order>
   <step>
-    <name>Erzeuge 200m-Raster</name>
+    <name>Operatsname</name>
     <type>TableInput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
            <schema_name/>
            </partitioning>
     <connection>srsofaioi4531</connection>
-    <sql>SELECT tol.operat_bfs, tol.gem_bfs, ha.geom
-FROM
-(
- SELECT FALSE, ST_SetSRID(ST_Translate(geom, 0 ,yseries),21781) as geom 
- FROM 
- (
-   SELECT generate_series(0, dy, 200) as yseries, st_translate(geom, xseries, 0) as geom 
-   FROM 
-   (
-     SELECT  generate_series(0, dx, 200) as xseries, dy, geom 
-     FROM 
-     (
-       SELECT st_envelope(st_makeline(st_makepoint(xmin,ymin), st_makepoint(xmin+200, ymin+200))) as geom, 
-                   ((xmax-xmin)::integer &#47; 200::integer)*200 as dx, ((ymax-ymin)::integer &#47; 200::integer)*200 as dy 
-       FROM 
-       (
-         SELECT ST_XMin(geometrie) as xmin, ST_YMin(geometrie) as ymin, ST_XMax(geometrie) as xmax, ST_YMax(geometrie) as ymax 
-         FROM
-         (
-          SELECT gem_bfs,  ST_Union (geometrie) as geometrie
-          FROM av_avdpool_ng.tseinteilung_toleranzstufe
-          WHERE art = 1
-          GROUP BY gem_bfs
-         ) as ts,
-         (
-          SELECT operat_bfs, gem_bfs, wkb_geometry
-          FROM av_lokale_entzerrung.gemeinde_operate
-          WHERE operat_bfs = ${OPERAT_BFS}
-         ) gem
-         WHERE gem.gem_bfs = ts.gem_bfs
-         AND gem.wkb_geometry &amp;&amp; ts.geometrie
-         AND ST_Intersects(gem.wkb_geometry, ts.geometrie)
-       ) as s1
-     ) as t1
-   ) as t2
- ) as t3
-) as ha,
-
-(
- SELECT gem.operat_bfs, gem.gem_bfs, ts.geometrie
- FROM
- (
-  SELECT gem_bfs,  geometrie
-  FROM av_avdpool_ng.tseinteilung_toleranzstufe
-  WHERE art = 1
- ) as ts,
- (
-  SELECT operat_bfs, gem_bfs, wkb_geometry
-  FROM av_lokale_entzerrung.gemeinde_operate
-  WHERE operat_bfs = ${OPERAT_BFS}
- ) gem
- WHERE gem.wkb_geometry &amp;&amp; ts.geometrie
- AND ST_Intersects(ST_Buffer(gem.wkb_geometry, -1), ts.geometrie)
-) as tol
-
-WHERE tol.geometrie &amp;&amp; ha.geom
-AND ST_Intersects(tol.geometrie, ha.geom);</sql>
+    <sql>SELECT *, lower(replace(replace(replace(gemeinde_operat, &apos;ä&apos;, &apos;ae&apos;), &apos;ö&apos;, &apos;oe&apos;), &apos;ü&apos;, &apos;ue&apos;)) as operat_name
+FROM av_lokale_entzerrung.gemeinde_operate 
+WHERE operat_bfs = ${OPERAT_BFS}</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -174,15 +120,15 @@ AND ST_Intersects(tol.geometrie, ha.geom);</sql>
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>359</xloc>
-      <yloc>94</yloc>
+      <xloc>265</xloc>
+      <yloc>157</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Hektarraster der Gemeinde (Operat) löschen</name>
-    <type>ExecSQL</type>
+    <name>Set Variables</name>
+    <type>SetVariable</type>
     <description/>
     <distribute>Y</distribute>
     <copies>1</copies>
@@ -190,95 +136,47 @@ AND ST_Intersects(tol.geometrie, ha.geom);</sql>
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>srsofaioi4531</connection>
-    <execute_each_row>N</execute_each_row>
-    <replace_variables>Y</replace_variables>
-    <sql>DELETE FROM av_lokale_entzerrung.hektarraster WHERE operat_bfs = ${OPERAT_BFS}</sql>
-    <insert_field/>
-    <update_field/>
-    <delete_field/>
-    <read_field/>
-    <arguments>
-    </arguments>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>147</xloc>
-      <yloc>92</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Set SRS</name>
-    <type>SetSRS</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<field_name>geom</field_name>
-<actual_gui_status>1</actual_gui_status>
-    <selected_srs>
-<authority>EPSG</authority>
-<srid>21781</srid>
-<description>CH1903 &#47; LV03</description>
-<is_custom>N</is_custom>
-    </selected_srs>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>510</xloc>
-      <yloc>93</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Table output</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>srsofaioi4531</connection>
-    <schema>av_lokale_entzerrung</schema>
-    <table>hektarraster</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>Y</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
     <fields>
-        <field>
-          <column_name>operat_bfs</column_name>
-          <stream_name>operat_bfs</stream_name>
+      <field>
+        <field_name>operat_name</field_name>
+        <variable_name>OPERAT_NAME</variable_name>
+        <variable_type>PARENT_JOB</variable_type>
+        <default_value>dummy</default_value>
         </field>
-        <field>
-          <column_name>gem_bfs</column_name>
-          <stream_name>gem_bfs</stream_name>
-        </field>
-        <field>
-          <column_name>wkb_geometry</column_name>
-          <stream_name>geom</stream_name>
-        </field>
-    </fields>
+      </fields>
+    <use_formatting>Y</use_formatting>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>631</xloc>
-      <yloc>93</yloc>
+      <xloc>443</xloc>
+      <yloc>156</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Write to log</name>
+    <type>WriteToLog</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <loglevel>log_level_basic</loglevel>
+      <displayHeader>Y</displayHeader>
+    <fields>
+      <field>
+        <name>operat_bfs</name>
+        </field>
+      <field>
+        <name>operat_name</name>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>266</xloc>
+      <yloc>292</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

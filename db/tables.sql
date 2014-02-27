@@ -144,7 +144,62 @@ CREATE INDEX idx_av_lokale_entzerrung_hektarraster_wkb_geometry
   
 INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'hektarraster', 'wkb_geometry', 2, '21781', 'POLYGON');
 
+-----------------------------------------
+
+CREATE TABLE av_lokale_entzerrung.cluster_messungen
+(
+  ogc_fid serial NOT NULL,
+  operat_bfs integer,
+  wkb_geometry geometry,
+  CONSTRAINT cluster_messungen_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+
+ALTER TABLE av_lokale_entzerrung.cluster_messungen OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.cluster_messungen TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.cluster_messungen TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.cluster_messungen TO public;
+
+CREATE INDEX idx_av_lokale_entzerrung_cluster_messungen_wkb_geometry
+  ON av_lokale_entzerrung.cluster_messungen
+  USING gist
+  (wkb_geometry);
+  
+INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'cluster_messungen', 'wkb_geometry', 2, '21781', 'POLYGON');
+
 --------------------------------------------
+
+CREATE TABLE av_lokale_entzerrung.average_messungen
+(
+  ogc_fid serial NOT NULL,
+  dy_avg double precision,
+  dx_avg double precision,
+  fs_avg double precision,
+  toleranzstufe integer,
+  operat_bfs integer,
+  wkb_geometry geometry,
+  CONSTRAINT average_messungen_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+
+ALTER TABLE av_lokale_entzerrung.average_messungen OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.average_messungen TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.average_messungen TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.average_messungen TO public;
+
+CREATE INDEX idx_av_lokale_entzerrung_average_messungen_wkb_geometry
+  ON av_lokale_entzerrung.average_messungen
+  USING gist
+  (wkb_geometry);
+  
+INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'average_messungen', 'wkb_geometry', 2, '21781', 'POINT');
+
+--------------------------------------------
+
 
 CREATE TABLE av_lokale_entzerrung.chenyx06_lv03
 (

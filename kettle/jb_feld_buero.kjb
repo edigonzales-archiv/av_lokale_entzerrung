@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>jb_buero_feld</name>
+  <name>jb_feld_buero</name>
     <description/>
     <extended_description/>
     <job_version/>
     <job_status>0</job_status>
   <directory>&#47;</directory>
   <created_user>-</created_user>
-  <created_date>2014&#47;02&#47;10 17:42:26.729</created_date>
+  <created_date>2014&#47;02&#47;26 17:32:53.477</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2014&#47;02&#47;10 17:42:26.729</modified_date>
+  <modified_date>2014&#47;02&#47;26 17:32:53.477</modified_date>
     <parameters>
         <parameter>
+            <name>CSV_MESSFILE</name>
+            <default_value>dummy.csv</default_value>
+            <description></description>
+        </parameter>
+        <parameter>
             <name>MY_HOME</name>
-            <default_value>/home/stefan/tmp/</default_value>
-            <description>null</description>
+            <default_value>/home/stefan/tmp</default_value>
+            <description></description>
         </parameter>
         <parameter>
             <name>OPERAT_BFS</name>
             <default_value>9999</default_value>
-            <description>null</description>
+            <description></description>
         </parameter>
     </parameters>
   <connection>
@@ -93,8 +98,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>88</xloc>
-      <yloc>99</yloc>
+      <xloc>89</xloc>
+      <yloc>123</yloc>
       </entry>
     <entry>
       <name>Success 1</name>
@@ -103,14 +108,14 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>529</xloc>
-      <yloc>263</yloc>
+      <xloc>576</xloc>
+      <yloc>121</yloc>
       </entry>
     <entry>
-      <name>tr_operat_name</name>
+      <name>tr_messung_lfp2db</name>
       <description>Transformation</description>
       <type>TRANS</type>
-      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_operat_name.ktr</filename>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_messung_lfp2db.ktr</filename>
       <transname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -132,101 +137,14 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>267</xloc>
-      <yloc>98</yloc>
-      </entry>
-    <entry>
-      <name>tr_qgis_projekt_feldplan</name>
-      <description>Transformation</description>
-      <type>TRANS</type>
-      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_qgis_projekt_feldplan.ktr</filename>
-      <transname/>
-      <directory/>
-      <arg_from_previous>N</arg_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Nothing</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>95</xloc>
-      <yloc>266</yloc>
-      </entry>
-    <entry>
-      <name>tr_messpunkte_in_db_und_trimble_output</name>
-      <description>Transformation</description>
-      <type>TRANS</type>
-      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_messpunkte_in_db_und_trimble_output.ktr</filename>
-      <transname/>
-      <directory/>
-      <arg_from_previous>N</arg_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Nothing</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>311</xloc>
-      <yloc>263</yloc>
-      </entry>
-    <entry>
-      <name>tr_hektarraster</name>
-      <description>Transformation</description>
-      <type>TRANS</type>
-      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_hektarraster.ktr</filename>
-      <transname/>
-      <directory/>
-      <arg_from_previous>N</arg_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Nothing</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>521</xloc>
-      <yloc>98</yloc>
+      <xloc>272</xloc>
+      <yloc>122</yloc>
       </entry>
   </entries>
   <hops>
     <hop>
       <from>START</from>
-      <to>tr_operat_name</to>
+      <to>tr_messung_lfp2db</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -234,35 +152,8 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>tr_qgis_projekt_feldplan</from>
-      <to>tr_messpunkte_in_db_und_trimble_output</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>tr_messpunkte_in_db_und_trimble_output</from>
+      <from>tr_messung_lfp2db</from>
       <to>Success 1</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>tr_operat_name</from>
-      <to>tr_hektarraster</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>tr_hektarraster</from>
-      <to>tr_qgis_projekt_feldplan</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
