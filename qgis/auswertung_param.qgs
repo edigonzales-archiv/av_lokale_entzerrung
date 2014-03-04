@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>577614.361702</xmin>
-            <ymin>209125.000000</ymin>
-            <xmax>657235.638298</xmax>
-            <ymax>265825.000000</ymax>
+            <xmin>583547.732422</xmin>
+            <ymin>212512.323975</ymin>
+            <xmax>653771.694578</xmax>
+            <ymax>262520.297025</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,7 +24,7 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendgroup open="false" checked="Qt::Checked" name="Vektoren">
+        <legendgroup open="true" checked="Qt::Checked" name="Vektoren">
             <legendlayer drawingOrder="0" open="true" checked="Qt::Checked" name="Vektoren Mittel" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="average_messungen20140227104656848" visible="1"/>
@@ -317,16 +317,16 @@
                 <edittype type="0" name="plz"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>average_messungen20140227104656848</id>
-            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."average_messungen" (wkb_geometry) sql=</datasource>
+            <datasource>dbname='sogis' host=srsofaioi4531 port=5432 user='bjsvwzie' password='ziegler15' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."average_messungen" (wkb_geometry) sql="operat_bfs" = $$OPERAT_BFS AND "fs_avg" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Vektoren Mittel</layername>
@@ -494,9 +494,9 @@
                 <edittype type="0" name="toleranzstufe"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -663,9 +663,9 @@
                 <edittype type="0" name="tid"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -824,9 +824,9 @@
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
             <editorlayout>tablayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -986,9 +986,9 @@
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1147,9 +1147,9 @@
                 <edittype type="0" name="operat_bfs"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1314,9 +1314,9 @@
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1479,9 +1479,9 @@
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1645,9 +1645,9 @@
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1828,9 +1828,9 @@
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -1991,9 +1991,9 @@
                 <edittype type="0" name="operat_bfs"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -2159,9 +2159,9 @@
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -2342,9 +2342,9 @@
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -2534,9 +2534,9 @@
                 <edittype type="0" name="tid"/>
             </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+            <editform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
             <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+            <annotationform>../../../../../bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
