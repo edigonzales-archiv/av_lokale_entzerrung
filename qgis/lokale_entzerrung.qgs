@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>611268.107919</xmin>
-            <ymin>224416.793893</ymin>
-            <xmax>657483.037119</xmax>
-            <ymax>251348.091603</ymax>
+            <xmin>637157.557839</xmin>
+            <ymin>244440.522114</ymin>
+            <xmax>641461.543612</xmax>
+            <ymax>246948.627702</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -117,12 +117,12 @@
         </legendlayer>
     </legend>
     <Composer title="A2, quer" visible="0">
-        <Composition printResolution="300" paperWidth="594" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="420" alignmentSnapTolerance="2" printAsRaster="0">
+        <Composition printResolution="200" paperWidth="594" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="420" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
                 <ArrowColor alpha="255" red="238" blue="185" green="185"/>
                 <StartPoint x="12.813" y="332.91"/>
                 <StopPoint x="19.334" y="332.91"/>
-                <ComposerItem width="6.92092" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="52" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
+                <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -131,7 +131,7 @@
                 <ArrowColor alpha="255" red="255" blue="0" green="0"/>
                 <StartPoint x="12.8597" y="319.068"/>
                 <StopPoint x="19.5819" y="319.068"/>
-                <ComposerItem width="7.12216" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
+                <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="50" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -139,7 +139,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -147,7 +147,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -155,7 +155,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -163,7 +163,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -171,7 +171,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -179,7 +179,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -187,7 +187,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -195,7 +195,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -203,7 +203,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -211,7 +211,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -219,7 +219,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -227,7 +227,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -235,7 +235,7 @@
             <ComposerLabel valign="32" labelText="TS3" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -243,7 +243,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -251,7 +251,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -259,7 +259,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -267,7 +267,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -275,7 +275,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -283,7 +283,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -291,7 +291,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -299,7 +299,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -307,7 +307,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -315,7 +315,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
+                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -323,7 +323,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -331,7 +331,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -339,7 +339,7 @@
             <ComposerLabel valign="32" labelText="TS2" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -347,7 +347,7 @@
             <ComposerLabel valign="32" labelText="Statistik:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,14,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -511,7 +511,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="101.3" x="10" y="307" rotation="0" height="57.2" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="101.3" x="10" y="307" rotation="0" height="57.2" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -520,7 +520,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="593.9" y="0.1"/>
                 <StopPoint x="593.9" y="19.9004"/>
-                <ComposerItem width="0.2" x="593.8" y="7.84091e-10" rotation="0" height="20.0004" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
+                <ComposerItem width="0.2" x="593.8" y="0" rotation="0" height="20.0004" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -529,7 +529,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="593.9" y="0"/>
                 <StopPoint x="574.709" y="0"/>
-                <ComposerItem width="19.3908" x="574.609" y="-0.1" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="20" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                <ComposerItem width="19.391" x="574.609" y="-0.1" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="20" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -537,7 +537,7 @@
             <ComposerLabel valign="32" labelText="Gemeindename" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="2.02857" id="gemeinde" positionLock="true">
+                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="2.02857" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -546,7 +546,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="593.9" y="399.936"/>
                 <StopPoint x="593.9" y="419.736"/>
-                <ComposerItem width="0.2" x="593.8" y="399.836" rotation="0" height="20" frame="false" outlineWidth="0" zValue="19" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
+                <ComposerItem width="0.2" x="593.8" y="399.836" rotation="0" height="20" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -554,7 +554,7 @@
             <ComposerLabel valign="32" labelText="Gemeinde: " halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -563,7 +563,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="574.3" y="419.9"/>
                 <StopPoint x="594.1" y="419.9"/>
-                <ComposerItem width="20" x="574.2" y="419.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
+                <ComposerItem width="20" x="574.2" y="419.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="16" lastValidViewScaleFactor="8.22185" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -571,7 +571,7 @@
             <ComposerLabel valign="32" labelText="Operatsname" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
+                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -579,7 +579,7 @@
             <ComposerLabel valign="32" labelText="Operat:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -587,13 +587,13 @@
             <ComposerLabel valign="32" labelText="Kontrolle lokale Spannungen" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,26,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
+                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="38.2462" numMapUnitsPerScaleBarUnit="1" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" style="Numeric" unitLabel="m" font="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="88">
-                <ComposerItem width="15.5" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="15.5" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -601,15 +601,7 @@
             <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -617,7 +609,15 @@
             <ComposerLabel valign="32" labelText="Massstab:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -625,7 +625,7 @@
             <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98&#xa;&#xa;agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
+                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -633,7 +633,7 @@
             <ComposerLabel valign="32" labelText="Amtliche Vermessung&#xa;&#xa;Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
+                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -641,11 +641,39 @@
             <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
+                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
+            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
+                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="4.05714" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
+                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="123.2">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="123.2" frame="false" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="8.71259" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
             <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewFrameMap="-1">
                     <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
@@ -676,48 +704,20 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="384.2" x="210" y="0" rotation="0" height="420" frame="false" outlineWidth="0.2" zValue="6" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
+                <ComposerItem width="384.2" x="210" y="0" rotation="0" height="420" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
-            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
-                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="4.05714" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
-                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="123.2">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="123.2" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="8.71259" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
         </Composition>
     </Composer>
     <Composer title="A1, quer" visible="0">
-        <Composition printResolution="300" paperWidth="841" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="594" alignmentSnapTolerance="2" printAsRaster="0">
+        <Composition printResolution="200" paperWidth="841" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="594" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
                 <ArrowColor alpha="255" red="238" blue="185" green="185"/>
                 <StartPoint x="12.813" y="332.91"/>
                 <StopPoint x="19.334" y="332.91"/>
-                <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="52" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
+                <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -726,7 +726,7 @@
                 <ArrowColor alpha="255" red="255" blue="0" green="0"/>
                 <StartPoint x="12.8597" y="319.068"/>
                 <StopPoint x="19.5819" y="319.068"/>
-                <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
+                <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="50" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -734,7 +734,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -742,7 +742,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -750,7 +750,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -758,7 +758,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -766,7 +766,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -774,7 +774,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -782,7 +782,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -790,7 +790,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -798,7 +798,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -806,7 +806,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -814,7 +814,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -822,7 +822,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -830,7 +830,7 @@
             <ComposerLabel valign="32" labelText="TS3" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -838,7 +838,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -846,7 +846,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -854,7 +854,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -862,7 +862,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -870,7 +870,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -878,7 +878,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -886,7 +886,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -894,7 +894,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -902,7 +902,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -910,7 +910,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
+                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -918,7 +918,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -926,7 +926,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -934,7 +934,7 @@
             <ComposerLabel valign="32" labelText="TS2" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -942,7 +942,7 @@
             <ComposerLabel valign="32" labelText="Statistik:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,14,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1106,7 +1106,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="10.2685" id="" positionLock="true">
+                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1115,7 +1115,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="840.9" y="0.1"/>
                 <StopPoint x="840.9" y="19.9"/>
-                <ComposerItem width="0.2" x="840.8" y="-1.99996e-08" rotation="0" height="20" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="10.2685" id="" positionLock="true">
+                <ComposerItem width="0.2" x="840.8" y="0" rotation="0" height="20" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="10.2685" id="" positionLock="true">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1124,7 +1124,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="840.9" y="0.1"/>
                 <StopPoint x="821.1" y="0.1"/>
-                <ComposerItem width="19.9999" x="821" y="0" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="20" lastValidViewScaleFactor="1.28356" id="" positionLock="false">
+                <ComposerItem width="20" x="821" y="0" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="20" lastValidViewScaleFactor="1.28356" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1132,7 +1132,7 @@
             <ComposerLabel valign="32" labelText="Gemeindename" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="2.02857" id="gemeinde" positionLock="true">
+                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="2.02857" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1141,7 +1141,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="840.9" y="574.1"/>
                 <StopPoint x="840.9" y="593.9"/>
-                <ComposerItem width="0.2" x="840.8" y="574" rotation="0" height="20" frame="false" outlineWidth="0" zValue="19" lastValidViewScaleFactor="2.56711" id="" positionLock="false">
+                <ComposerItem width="0.2" x="840.8" y="574" rotation="0" height="20" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="2.56711" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1149,7 +1149,7 @@
             <ComposerLabel valign="32" labelText="Gemeinde: " halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1158,7 +1158,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="820.9" y="593.9"/>
                 <StopPoint x="840.7" y="593.9"/>
-                <ComposerItem width="20" x="820.8" y="593.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="0.641779" id="" positionLock="false">
+                <ComposerItem width="20" x="820.8" y="593.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="16" lastValidViewScaleFactor="0.641779" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1166,7 +1166,7 @@
             <ComposerLabel valign="32" labelText="Operatsname" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
+                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1174,7 +1174,7 @@
             <ComposerLabel valign="32" labelText="Operat:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1182,13 +1182,13 @@
             <ComposerLabel valign="32" labelText="Kontrolle lokale Spannungen" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,26,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
+                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="62.8145" numMapUnitsPerScaleBarUnit="1" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" style="Numeric" unitLabel="m" font="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="88">
-                <ComposerItem width="15.5" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="15.5" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1196,15 +1196,7 @@
             <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Massstab:" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1212,7 +1204,15 @@
             <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Massstab:" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1220,7 +1220,7 @@
             <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98&#xa;&#xa;agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1228,7 +1228,7 @@
             <ComposerLabel valign="32" labelText="Amtliche Vermessung&#xa;&#xa;Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
+                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1236,11 +1236,39 @@
             <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="0.641779" id="" positionLock="true">
+                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="0.641779" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
+            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
+                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="0.641779" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
+                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297.2">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="297.2" frame="false" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
             <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewFrameMap="-1">
                     <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
@@ -1271,48 +1299,20 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="631" x="210" y="0" rotation="0" height="594" frame="false" outlineWidth="0.2" zValue="6" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
+                <ComposerItem width="631" x="210" y="0" rotation="0" height="594" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
-            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
-                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="0.641779" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
-                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297.2">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="297.2" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
         </Composition>
     </Composer>
     <Composer title="A0, quer" visible="0">
-        <Composition printResolution="250" paperWidth="1189" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="0">
+        <Composition printResolution="200" paperWidth="1189" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
                 <ArrowColor alpha="255" red="238" blue="185" green="185"/>
                 <StartPoint x="12.813" y="332.91"/>
                 <StopPoint x="19.334" y="332.91"/>
-                <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="52" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
+                <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1321,7 +1321,7 @@
                 <ArrowColor alpha="255" red="255" blue="0" green="0"/>
                 <StartPoint x="12.8597" y="319.068"/>
                 <StopPoint x="19.5819" y="319.068"/>
-                <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
+                <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="50" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1329,7 +1329,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="160" rotation="0" height="4.72147" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1337,7 +1337,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="185" rotation="0" height="4.2606" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1345,7 +1345,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="180" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1353,7 +1353,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="170" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1361,7 +1361,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="175" rotation="0" height="4.57011" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1369,7 +1369,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="ts3_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1377,7 +1377,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1385,7 +1385,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="165" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1393,7 +1393,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="185" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1401,7 +1401,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="170" rotation="0" height="4.48641" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1409,7 +1409,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="180" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1417,7 +1417,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="175" rotation="0" height="4.61141" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="8.74109" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1425,7 +1425,7 @@
             <ComposerLabel valign="32" labelText="TS3" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="16.0429" x="10" y="160" rotation="0" height="5.94891" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1433,7 +1433,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
+                <ComposerItem width="20" x="80" y="125" rotation="0" height="4.77663" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1441,7 +1441,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
+                <ComposerItem width="20" x="80" y="145" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1449,7 +1449,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
+                <ComposerItem width="20" x="80" y="135" rotation="0" height="5.36902" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1457,7 +1457,7 @@
             <ComposerLabel valign="32" labelText="XXmm&#xa;" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
+                <ComposerItem width="20" x="80" y="140" rotation="0" height="5" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1465,7 +1465,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
+                <ComposerItem width="20" x="80" y="130" rotation="0" height="4.86684" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1473,7 +1473,7 @@
             <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
+                <ComposerItem width="20" x="80" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="ts2_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1481,7 +1481,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="145" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1489,7 +1489,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="140" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1497,7 +1497,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="135" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1505,7 +1505,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
+                <ComposerItem width="24.8" x="40" y="130" rotation="0" height="5.2625" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1513,7 +1513,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="125" rotation="0" height="4.80489" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1521,7 +1521,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="24.8" x="40" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1529,7 +1529,7 @@
             <ComposerLabel valign="32" labelText="TS2" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="11.05" x="10" y="120" rotation="0" height="4.57609" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1537,7 +1537,7 @@
             <ComposerLabel valign="32" labelText="Statistik:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,14,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
+                <ComposerItem width="30.266" x="10" y="108.911" rotation="0" height="6.40652" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="4.37055" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1701,7 +1701,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="0.422819" id="" positionLock="true">
+                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1710,7 +1710,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="1188.9" y="0.1"/>
                 <StopPoint x="1188.9" y="19.9"/>
-                <ComposerItem width="0.2" x="1188.8" y="1.38778e-17" rotation="0" height="20" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="8.58907" id="" positionLock="true">
+                <ComposerItem width="0.2" x="1188.8" y="0" rotation="0" height="20" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="8.58907" id="" positionLock="true">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1727,7 +1727,7 @@
             <ComposerLabel valign="32" labelText="Gemeindename" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="17.4252" id="gemeinde" positionLock="true">
+                <ComposerItem width="130" x="70" y="82" rotation="0" height="13.0986" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="17.4252" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1736,7 +1736,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="1188.9" y="821.1"/>
                 <StopPoint x="1188.9" y="840.9"/>
-                <ComposerItem width="0.2" x="1188.8" y="821" rotation="0" height="20" frame="false" outlineWidth="0" zValue="19" lastValidViewScaleFactor="1.07363" id="" positionLock="false">
+                <ComposerItem width="0.2" x="1188.8" y="821" rotation="0" height="20" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="1.07363" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1744,7 +1744,7 @@
             <ComposerLabel valign="32" labelText="Gemeinde: " halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="54.7183" x="10" y="82" rotation="0" height="16.2676" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1753,7 +1753,7 @@
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
                 <StartPoint x="1168.9" y="840.9"/>
                 <StopPoint x="1188.7" y="840.9"/>
-                <ComposerItem width="20" x="1168.8" y="840.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="17.1781" id="" positionLock="false">
+                <ComposerItem width="20" x="1168.8" y="840.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="16" lastValidViewScaleFactor="17.1781" id="" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1761,7 +1761,7 @@
             <ComposerLabel valign="32" labelText="Operatsname" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
+                <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1769,7 +1769,7 @@
             <ComposerLabel valign="32" labelText="Operat:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="37.9577" x="10" y="70" rotation="0" height="14.7887" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1777,13 +1777,13 @@
             <ComposerLabel valign="32" labelText="Kontrolle lokale Spannungen" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,26,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
+                <ComposerItem width="151.731" x="10" y="47.8169" rotation="0" height="13.3099" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="2.02857" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="97.457" numMapUnitsPerScaleBarUnit="1" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" style="Numeric" unitLabel="m" font="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="88">
-                <ComposerItem width="12.6" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="12.6" x="169.494" y="269.9" rotation="0" height="5.3" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1791,15 +1791,7 @@
             <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
+                <ComposerItem width="24.8" x="171.494" y="266.383" rotation="0" height="5.59485" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.05714" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1807,7 +1799,15 @@
             <ComposerLabel valign="32" labelText="Massstab:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                <ComposerItem width="24.8" x="136.931" y="270.683" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.11092" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="38.0693" x="136.931" y="266.383" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="32.4571" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1815,7 +1815,7 @@
             <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98&#xa;&#xa;agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
+                <ComposerItem width="54.489" x="73.6247" y="266.43" rotation="0" height="24.0822" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.02857" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1823,7 +1823,7 @@
             <ComposerLabel valign="32" labelText="Amtliche Vermessung&#xa;&#xa;Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
+                <ComposerItem width="46.6691" x="10" y="270" rotation="0" height="16.9424" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="4.11092" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1831,11 +1831,39 @@
             <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="1.69128" id="" positionLock="true">
+                <ComposerItem width="50.3271" x="10" y="266" rotation="0" height="6.98283" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="1.69128" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
+            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
+                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="0.845638" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
+                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="544.2">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="544.2" frame="false" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="17.4252" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="17.4252" id="" positionLock="true">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
             <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewFrameMap="-1">
                     <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
@@ -1866,39 +1894,11 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="6" lastValidViewScaleFactor="17.4252" id="" positionLock="true">
+                <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="1.07007" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
-            <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
-                <ComposerItem width="50" x="150" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="0.845638" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/lokale_entzerrung/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
-                <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0" zValue="4" lastValidViewScaleFactor="2.05546" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="544.2">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="296.8" rotation="0" height="544.2" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="17.4252" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="17.4252" id="" positionLock="true">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
         </Composition>
     </Composer>
     <projectlayers layercount="17">
