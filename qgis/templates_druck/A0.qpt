@@ -1,5 +1,27 @@
-<Composer title="A0, quer" visible="1">
- <Composition printResolution="200" paperWidth="1189" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="0">
+<Composer title="A0" visible="1">
+ <Composition printResolution="200" paperWidth="1189" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="1">
+  <ComposerPicture pictureWidth="30" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="30" mapId="0">
+   <ComposerItem width="30" x="1149" y="801" rotation="0" height="30" frame="false" outlineWidth="0.3" zValue="54" lastValidViewScaleFactor="1.56303" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+   <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="96.2876" x="113" y="837" rotation="0" height="3.83871" frame="false" outlineWidth="0.3" zValue="53" lastValidViewScaleFactor="1.56303" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
+   <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="78.0538" x="1.5" y="837" rotation="0" height="4.47849" frame="false" outlineWidth="0.3" zValue="52" lastValidViewScaleFactor="3.12605" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
   <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
    <ArrowColor alpha="255" red="238" blue="185" green="185"/>
    <StartPoint x="12.813" y="332.91"/>
@@ -393,7 +415,7 @@
      </VectorClassificationItemNg>
     </LayerItem>
    </Model>
-   <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
+   <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="3.12605" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -586,7 +608,7 @@
     </symbol>
     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
    </Grid>
-   <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
+   <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="1.56303" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
