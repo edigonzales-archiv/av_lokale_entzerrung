@@ -1,23 +1,103 @@
 <Composer title="A1" visible="1">
  <Composition printResolution="200" paperWidth="841" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="594" alignmentSnapTolerance="2" printAsRaster="1">
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="826" y="594" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="64" lastValidViewScaleFactor="0.770588" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="841" y="579" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="63" lastValidViewScaleFactor="0.770588" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="841" y="0" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="62" lastValidViewScaleFactor="0.770588" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="826" y="0" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="61" lastValidViewScaleFactor="0.770588" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="0" y="594" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="60" lastValidViewScaleFactor="0.770588" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="0" y="579" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="59" lastValidViewScaleFactor="12.3294" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="0" y="0" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="58" lastValidViewScaleFactor="1.54118" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="0" y="0" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="57" lastValidViewScaleFactor="1.54118" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="210" x="0" y="297" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="56" lastValidViewScaleFactor="1.54118" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="594">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="210" y="0" rotation="0" height="594" frame="true" outlineWidth="0.2" zValue="55" lastValidViewScaleFactor="1.54118" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
   <ComposerPicture pictureWidth="30" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="30" mapId="0">
    <ComposerItem width="30" x="800.8" y="554" rotation="0" height="30" frame="false" outlineWidth="0.3" zValue="54" lastValidViewScaleFactor="1.10451" id="" positionLock="false">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerLabel valign="32" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+  <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
    <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="87.1425" x="122" y="589.5" rotation="0" height="3.39516" frame="false" outlineWidth="0.3" zValue="53" lastValidViewScaleFactor="1.10451" id="" positionLock="true">
+   <ComposerItem width="4" x="204.8" y="204.553" rotation="90" height="87.1425" frame="false" outlineWidth="0.3" zValue="53" lastValidViewScaleFactor="3.08235" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
+  <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="78.7441" x="1.5" y="589.5" rotation="0" height="4.07419" frame="false" outlineWidth="0.3" zValue="52" lastValidViewScaleFactor="4.41805" id="" positionLock="false">
+   <ComposerItem width="4" x="204.8" y="5" rotation="90" height="78.7441" frame="false" outlineWidth="0.3" zValue="52" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -415,29 +495,11 @@
      </VectorClassificationItemNg>
     </LayerItem>
    </Model>
-   <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="4.41805" id="" positionLock="true">
+   <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLegend>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.2" markerMode="0">
-   <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-   <StartPoint x="840.9" y="0.1"/>
-   <StopPoint x="840.9" y="19.9"/>
-   <ComposerItem width="0.2" x="840.8" y="0" rotation="0" height="20" frame="false" outlineWidth="0" zValue="21" lastValidViewScaleFactor="10.2685" id="" positionLock="true">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.2" markerMode="0">
-   <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-   <StartPoint x="840.9" y="0.1"/>
-   <StopPoint x="821.1" y="0.1"/>
-   <ComposerItem width="20" x="821" y="0" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="20" lastValidViewScaleFactor="1.28356" id="" positionLock="false">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
   <ComposerLabel valign="32" labelText="Gemeindename" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
@@ -446,15 +508,6 @@
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.2" markerMode="0">
-   <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-   <StartPoint x="840.9" y="574.1"/>
-   <StopPoint x="840.9" y="593.9"/>
-   <ComposerItem width="0.2" x="840.8" y="574" rotation="0" height="20" frame="false" outlineWidth="0" zValue="18" lastValidViewScaleFactor="2.56711" id="" positionLock="false">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
   <ComposerLabel valign="32" labelText="Gemeinde: " halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
@@ -463,19 +516,10 @@
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.2" markerMode="0">
-   <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-   <StartPoint x="820.9" y="593.9"/>
-   <StopPoint x="840.7" y="593.9"/>
-   <ComposerItem width="20" x="820.8" y="593.8" rotation="0" height="0.2" frame="false" outlineWidth="0" zValue="16" lastValidViewScaleFactor="0.641779" id="" positionLock="false">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
   <ComposerLabel valign="32" labelText="Operatsname" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.02857" id="gemeinde_operat" positionLock="true">
+   <ComposerItem width="129.648" x="70" y="70" rotation="0" height="15.2817" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="1.54118" id="gemeinde_operat" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -562,19 +606,19 @@
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297.2">
+  <ComposerShape shapeType="1" shapeWidth="200" outlineWidth="0" transparentFill="1" shapeHeight="287">
    <OutlineColor alpha="255" red="0" blue="0" green="0"/>
    <FillColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem width="210" x="0" y="296.8" rotation="0" height="297.2" frame="false" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <ComposerItem width="200" x="5" y="302" rotation="0" height="287" frame="true" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="6.16471" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerShape>
-  <ComposerShape shapeType="1" shapeWidth="210" outlineWidth="0.2" transparentFill="1" shapeHeight="297">
+  <ComposerShape shapeType="1" shapeWidth="200" outlineWidth="0" transparentFill="1" shapeHeight="287">
    <OutlineColor alpha="255" red="0" blue="0" green="0"/>
    <FillColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem width="210" x="0" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="12.3294" id="" positionLock="true">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <ComposerItem width="200" x="5" y="5" rotation="0" height="287" frame="true" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerShape>
@@ -608,7 +652,7 @@
     </symbol>
     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
    </Grid>
-   <ComposerItem width="631" x="210" y="0" rotation="0" height="594" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="1.10451" id="" positionLock="true">
+   <ComposerItem width="631" x="210" y="0" rotation="0" height="594" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="0.770588" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
