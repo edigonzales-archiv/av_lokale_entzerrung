@@ -352,4 +352,31 @@ GRANT ALL ON TABLE av_lokale_entzerrung.qgis_projekte TO stefan;
 GRANT SELECT ON TABLE av_lokale_entzerrung.qgis_projekte TO mspublic;
 GRANT SELECT ON TABLE av_lokale_entzerrung.qgis_projekte TO public;
 
+--------------------------------------------
+
+CREATE TABLE av_lokale_entzerrung.kontrollmessungen_lfp2
+(
+  ogc_fid serial NOT NULL,
+  nummer VARCHAR(100), 
+  dy DOUBLE PRECISION,
+  dx DOUBLE PRECISION,
+  fs DOUBLE PRECISION,
+  the_geom geometry(POINT,21781),
+  CONSTRAINT kontrollmessungen_lfp2_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+
+ALTER TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO public;
+
+CREATE INDEX idx_av_lokale_entzerrung_kontrollmessungen_lfp2_the_geom
+  ON av_lokale_entzerrung.kontrollmessungen_lfp2
+  USING gist
+  (the_geom);
+  
+--INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'kontrollmessungen_lfp2', 'the_geom', 2, '21781', 'POINT');
 
