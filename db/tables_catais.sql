@@ -380,3 +380,33 @@ CREATE INDEX idx_av_lokale_entzerrung_kontrollmessungen_lfp2_the_geom
   
 --INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'kontrollmessungen_lfp2', 'the_geom', 2, '21781', 'POINT');
 
+--------------------------------------------
+
+CREATE TABLE av_lokale_entzerrung.kontrollmessungen_techkurs
+(
+  ogc_fid serial NOT NULL,
+  nummer VARCHAR(100),
+  kategorie  VARCHAR(100),
+  punktzeichen VARCHAR(100),
+  dy DOUBLE PRECISION,
+  dx DOUBLE PRECISION,
+  fs DOUBLE PRECISION,
+  the_geom geometry(POINT,21781),
+  CONSTRAINT kontrollmessungen_techkurs_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+
+ALTER TABLE av_lokale_entzerrung.kontrollmessungen_techkurs OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO public;
+
+CREATE INDEX idx_av_lokale_entzerrung_kontrollmessungen_techkurs_the_geom
+  ON av_lokale_entzerrung.kontrollmessungen_techkurs
+  USING gist
+  (the_geom);
+
+--INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'kontrollmessungen_techkurs', 'the_geom', 2, '21781', 'POINT');
+
