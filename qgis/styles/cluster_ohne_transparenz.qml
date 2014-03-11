@@ -5,12 +5,12 @@
     <symbols>
       <symbol outputUnit="MM" alpha="1" type="fill" name="0">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="107,200,243,255"/>
-          <prop k="color_border" v="145,217,217,255"/>
+          <prop k="color" v="255,255,225,255"/>
+          <prop k="color_border" v="0,0,0,255"/>
           <prop k="offset" v="0,0"/>
-          <prop k="style" v="no"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.4"/>
+          <prop k="style" v="solid"/>
+          <prop k="style_border" v="no"/>
+          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
     </symbols>
@@ -110,7 +110,7 @@
   <displayfield>ogc_fid</displayfield>
   <label>0</label>
   <labelattributes>
-    <label fieldname="" text="Beschriftung"/>
+    <label fieldname="" text="Label"/>
     <family fieldname="" name="Bitstream Vera Sans"/>
     <size fieldname="" units="pt" value="12"/>
     <bold fieldname="" on="0"/>
@@ -130,8 +130,6 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="gem_bfs"/>
-    <edittype type="0" name="go_gem_bfs"/>
     <edittype type="0" name="ogc_fid"/>
     <edittype type="0" name="operat_bfs"/>
   </edittypes>

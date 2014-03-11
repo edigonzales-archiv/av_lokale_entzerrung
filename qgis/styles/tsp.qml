@@ -1,16 +1,17 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.9.0-Master" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.9.0-Master" minimumScale="0" maximumScale="100000" hasScaleBasedVisibilityFlag="1">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="107,200,243,255"/>
-          <prop k="color_border" v="145,217,217,255"/>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="fill" v="#ffaa00"/>
+          <prop k="name" v="/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="style" v="no"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.4"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
+          <prop k="size" v="5"/>
         </layer>
       </symbol>
     </symbols>
@@ -53,22 +54,22 @@
     <property key="labeling/dataDefinedProperty9" value=""/>
     <property key="labeling/decimals" value="0"/>
     <property key="labeling/displayAll" value="false"/>
-    <property key="labeling/dist" value="0"/>
+    <property key="labeling/dist" value="1"/>
     <property key="labeling/distInMapUnits" value="false"/>
-    <property key="labeling/enabled" value="false"/>
-    <property key="labeling/fieldName" value=""/>
+    <property key="labeling/enabled" value="true"/>
+    <property key="labeling/fieldName" value="nummer"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
-    <property key="labeling/fontItalic" value="false"/>
+    <property key="labeling/fontFamily" value="CadastraCondensed"/>
+    <property key="labeling/fontItalic" value="true"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
     <property key="labeling/fontMaxPixelSize" value="10000"/>
     <property key="labeling/fontMinPixelSize" value="3"/>
-    <property key="labeling/fontSize" value="9"/>
+    <property key="labeling/fontSize" value="10"/>
     <property key="labeling/fontSizeInMapUnits" value="false"/>
     <property key="labeling/fontStrikeout" value="false"/>
     <property key="labeling/fontUnderline" value="false"/>
-    <property key="labeling/fontWeight" value="50"/>
+    <property key="labeling/fontWeight" value="75"/>
     <property key="labeling/fontWordSpacing" value="0"/>
     <property key="labeling/formatNumbers" value="false"/>
     <property key="labeling/isExpression" value="false"/>
@@ -83,7 +84,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value=""/>
+    <property key="labeling/namedStyle" value="Bold Oblique"/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/placeDirectionSymbol" value="0"/>
     <property key="labeling/placement" value="0"/>
@@ -97,8 +98,8 @@
     <property key="labeling/scaleMax" value="0"/>
     <property key="labeling/scaleMin" value="0"/>
     <property key="labeling/textColorB" value="0"/>
-    <property key="labeling/textColorG" value="0"/>
-    <property key="labeling/textColorR" value="0"/>
+    <property key="labeling/textColorG" value="170"/>
+    <property key="labeling/textColorR" value="255"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>
@@ -130,10 +131,8 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="gem_bfs"/>
-    <edittype type="0" name="go_gem_bfs"/>
+    <edittype type="0" name="nummer"/>
     <edittype type="0" name="ogc_fid"/>
-    <edittype type="0" name="operat_bfs"/>
   </edittypes>
   <editorlayout>generatedlayout</editorlayout>
   <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>

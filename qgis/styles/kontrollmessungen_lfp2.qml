@@ -1,16 +1,37 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.9.0-Master" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.9.0-Master" minimumScale="-4.65661e-10" maximumScale="20000" hasScaleBasedVisibilityFlag="1">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="107,200,243,255"/>
-          <prop k="color_border" v="145,217,217,255"/>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="fill" v="#00aa7f"/>
+          <prop k="name" v="/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="style" v="no"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.4"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
+          <prop k="size" v="4"/>
+        </layer>
+        <layer pass="0" class="VectorField" locked="0">
+          <prop k="angle_orientation" v="0"/>
+          <prop k="angle_units" v="0"/>
+          <prop k="scale" v="0.5"/>
+          <prop k="vector_field_type" v="0"/>
+          <prop k="x_attribute" v="dy"/>
+          <prop k="y_attribute" v="dx"/>
+          <symbol outputUnit="MM" alpha="1" type="line" name="@0@1">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="color" v="0,170,127,255"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0"/>
+              <prop k="penstyle" v="solid"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width" v="0.4"/>
+            </layer>
+          </symbol>
         </layer>
       </symbol>
     </symbols>
@@ -53,12 +74,12 @@
     <property key="labeling/dataDefinedProperty9" value=""/>
     <property key="labeling/decimals" value="0"/>
     <property key="labeling/displayAll" value="false"/>
-    <property key="labeling/dist" value="0"/>
+    <property key="labeling/dist" value="1"/>
     <property key="labeling/distInMapUnits" value="false"/>
-    <property key="labeling/enabled" value="false"/>
-    <property key="labeling/fieldName" value=""/>
+    <property key="labeling/enabled" value="true"/>
+    <property key="labeling/fieldName" value="round(fs,0) || 'mm'"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
+    <property key="labeling/fontFamily" value="CadastraCondensed"/>
     <property key="labeling/fontItalic" value="false"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -71,7 +92,7 @@
     <property key="labeling/fontWeight" value="50"/>
     <property key="labeling/fontWordSpacing" value="0"/>
     <property key="labeling/formatNumbers" value="false"/>
-    <property key="labeling/isExpression" value="false"/>
+    <property key="labeling/isExpression" value="true"/>
     <property key="labeling/labelOffsetInMapUnits" value="true"/>
     <property key="labeling/labelPerPart" value="false"/>
     <property key="labeling/leftDirectionSymbol" value="&lt;"/>
@@ -83,7 +104,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value=""/>
+    <property key="labeling/namedStyle" value="Normal"/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/placeDirectionSymbol" value="0"/>
     <property key="labeling/placement" value="0"/>
@@ -96,8 +117,8 @@
     <property key="labeling/rightDirectionSymbol" value=">"/>
     <property key="labeling/scaleMax" value="0"/>
     <property key="labeling/scaleMin" value="0"/>
-    <property key="labeling/textColorB" value="0"/>
-    <property key="labeling/textColorG" value="0"/>
+    <property key="labeling/textColorB" value="127"/>
+    <property key="labeling/textColorG" value="170"/>
     <property key="labeling/textColorR" value="0"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
@@ -110,7 +131,7 @@
   <displayfield>ogc_fid</displayfield>
   <label>0</label>
   <labelattributes>
-    <label fieldname="" text="Beschriftung"/>
+    <label fieldname="" text="Label"/>
     <family fieldname="" name="Bitstream Vera Sans"/>
     <size fieldname="" units="pt" value="12"/>
     <bold fieldname="" on="0"/>
@@ -130,15 +151,16 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="gem_bfs"/>
-    <edittype type="0" name="go_gem_bfs"/>
+    <edittype type="0" name="dx"/>
+    <edittype type="0" name="dy"/>
+    <edittype type="0" name="fs"/>
+    <edittype type="0" name="nummer"/>
     <edittype type="0" name="ogc_fid"/>
-    <edittype type="0" name="operat_bfs"/>
   </edittypes>
   <editorlayout>generatedlayout</editorlayout>
-  <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+  <annotationform>.</annotationform>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions/>

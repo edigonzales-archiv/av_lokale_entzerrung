@@ -1,16 +1,17 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.9.0-Master" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.9.0-Master" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="107,200,243,255"/>
-          <prop k="color_border" v="145,217,217,255"/>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,85,255,255"/>
+          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
-          <prop k="style" v="no"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.4"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="1"/>
         </layer>
       </symbol>
     </symbols>
@@ -130,15 +131,17 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="gem_bfs"/>
-    <edittype type="0" name="go_gem_bfs"/>
+    <edittype type="0" name="geometrie_lv95_gemessen"/>
+    <edittype type="0" name="geometrie_lv95_trans"/>
+    <edittype type="0" name="nummer"/>
     <edittype type="0" name="ogc_fid"/>
     <edittype type="0" name="operat_bfs"/>
+    <edittype type="0" name="punktzeichen"/>
   </edittypes>
   <editorlayout>generatedlayout</editorlayout>
-  <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
+  <editform></editform>
   <editforminit></editforminit>
-  <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
+  <annotationform></annotationform>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions/>
