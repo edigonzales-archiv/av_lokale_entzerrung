@@ -368,8 +368,8 @@ WITH (
   OIDS=FALSE
 );
 
-ALTER TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 OWNER TO av_verifikation;
-GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO av_verifikation;
+ALTER TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 OWNER TO stefan;
+GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO stefan;
 GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO mspublic;
 GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_lfp2 TO public;
 
@@ -398,8 +398,8 @@ WITH (
   OIDS=FALSE
 );
 
-ALTER TABLE av_lokale_entzerrung.kontrollmessungen_techkurs OWNER TO av_verifikation;
-GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO av_verifikation;
+ALTER TABLE av_lokale_entzerrung.kontrollmessungen_techkurs OWNER TO stefan;
+GRANT ALL ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO stefan;
 GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO mspublic;
 GRANT SELECT ON TABLE av_lokale_entzerrung.kontrollmessungen_techkurs TO public;
 
