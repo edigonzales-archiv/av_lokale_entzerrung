@@ -151,7 +151,7 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Text file input</from><to>Filter rows</to><enabled>Y</enabled> </hop>  <hop> <from>Fixpunkte aus DB</from><to>LV03 -&gt; LV95</to><enabled>Y</enabled> </hop>  <hop> <from>LV03 -&gt; LV95</from><to>TextFromGeom</to><enabled>Y</enabled> </hop>  <hop> <from>TextFromGeom</from><to>GeomText aufsplitten</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows</from><to>Sort rows</to><enabled>Y</enabled> </hop>  <hop> <from>GeomText aufsplitten</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows</from><to>GeomFromText</to><enabled>Y</enabled> </hop>  <hop> <from>Gemeindegrenzen</from><to>Gemgrenzen LV03 -&gt; LV95</to><enabled>Y</enabled> </hop>  <hop> <from>GeomFromText</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Gemgrenzen LV03 -&gt; LV95</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product)</from><to>Ausmisten #1</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten #1</from><to>Sort rows 2</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 2</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Shapefile File Output</to><enabled>N</enabled> </hop>  <hop> <from>Merge Join</from><to>Differenzen bilden</to><enabled>Y</enabled> </hop>  <hop> <from>Differenzen bilden</from><to>Fs berechnen</to><enabled>Y</enabled> </hop>  <hop> <from>Fs berechnen</from><to>mm Konstante</to><enabled>Y</enabled> </hop>  <hop> <from>mm Konstante</from><to>Meter -&gt; Millimeter</to><enabled>Y</enabled> </hop>  <hop> <from>Meter -&gt; Millimeter</from><to>Ausmisten #2</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten #2</from><to>LV95 -&gt; LV03</to><enabled>Y</enabled> </hop>  <hop> <from>LV95 -&gt; LV03</from><to>Table output</to><enabled>N</enabled> </hop>  </order>
+  <hop> <from>Text file input</from><to>Filter rows</to><enabled>Y</enabled> </hop>  <hop> <from>Fixpunkte aus DB</from><to>LV03 -&gt; LV95</to><enabled>Y</enabled> </hop>  <hop> <from>LV03 -&gt; LV95</from><to>TextFromGeom</to><enabled>Y</enabled> </hop>  <hop> <from>TextFromGeom</from><to>GeomText aufsplitten</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows</from><to>Sort rows</to><enabled>Y</enabled> </hop>  <hop> <from>GeomText aufsplitten</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows</from><to>GeomFromText</to><enabled>Y</enabled> </hop>  <hop> <from>Gemeindegrenzen</from><to>Gemgrenzen LV03 -&gt; LV95</to><enabled>Y</enabled> </hop>  <hop> <from>GeomFromText</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Gemgrenzen LV03 -&gt; LV95</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product)</from><to>Ausmisten #1</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten #1</from><to>Sort rows 2</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 2</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Shapefile File Output</to><enabled>N</enabled> </hop>  <hop> <from>Merge Join</from><to>Differenzen bilden</to><enabled>Y</enabled> </hop>  <hop> <from>Differenzen bilden</from><to>Fs berechnen</to><enabled>Y</enabled> </hop>  <hop> <from>Fs berechnen</from><to>mm Konstante</to><enabled>Y</enabled> </hop>  <hop> <from>mm Konstante</from><to>Meter -&gt; Millimeter</to><enabled>Y</enabled> </hop>  <hop> <from>Meter -&gt; Millimeter</from><to>Ausmisten #2</to><enabled>Y</enabled> </hop>  <hop> <from>Ausmisten #2</from><to>LV95 -&gt; LV03</to><enabled>Y</enabled> </hop>  <hop> <from>LV95 -&gt; LV03</from><to>Set SRS (Warum???)</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS (Warum???)</from><to>Table output</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>Ausmisten #1</name>
     <type>SelectValues</type>
@@ -856,8 +856,8 @@ FROM av_avwmsde_t.mbsf
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>106</xloc>
-      <yloc>489</yloc>
+      <xloc>42</xloc>
+      <yloc>487</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1036,6 +1036,32 @@ FROM av_avwmsde_t.mbsf
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>658</xloc>
+      <yloc>489</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Set SRS (Warum???)</name>
+    <type>SetSRS</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<field_name>geometrie</field_name>
+<actual_gui_status>1</actual_gui_status>
+    <selected_srs>
+<authority>EPSG</authority>
+<srid>21781</srid>
+<description>CH1903 &#47; LV03</description>
+<is_custom>N</is_custom>
+    </selected_srs>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>152</xloc>
       <yloc>489</yloc>
       <draw>Y</draw>
       </GUI>
