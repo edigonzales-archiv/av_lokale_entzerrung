@@ -68,13 +68,13 @@
   </connection>
   <connection>
     <name>srsofaioi4531</name>
-    <server>localhost</server>
+    <server>srsofaioi4531.ktso.ch</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>rosebud2</database>
+    <database>sogis</database>
     <port>5432</port>
-    <username>stefan</username>
-    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe88</password>
+    <username>bjsvwzie</username>
+    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe8f</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -231,8 +231,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>622</xloc>
-      <yloc>125</yloc>
+      <xloc>644</xloc>
+      <yloc>123</yloc>
       </entry>
     <entry>
       <name>tr_ts2_messpunkte_mitteln_statistik</name>
@@ -259,8 +259,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>622</xloc>
-      <yloc>273</yloc>
+      <xloc>856</xloc>
+      <yloc>124</yloc>
       </entry>
     <entry>
       <name>tr_ts3_messpunkte_mitteln_statistik</name>
@@ -287,8 +287,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>385</xloc>
-      <yloc>272</yloc>
+      <xloc>854</xloc>
+      <yloc>260</yloc>
       </entry>
     <entry>
       <name>tr_operat_name</name>
@@ -345,6 +345,35 @@
       <nr>0</nr>
       <xloc>187</xloc>
       <yloc>274</yloc>
+      </entry>
+    <entry>
+      <name>tr_ts4_messpunkte_mitteln_statistik</name>
+      <description>Transformation</description>
+      <type>TRANS</type>
+      <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_ts4_messpunkte_mitteln_statistik.ktr</filename>
+      <transname/>
+      <directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>527</xloc>
+      <yloc>273</yloc>
       </entry>
   </entries>
   <hops>
@@ -403,8 +432,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>tr_ts3_messpunkte_mitteln_statistik</from>
-      <to>tr_qgis_projekt_auswertung</to>
+      <from>tr_qgis_projekt_auswertung</from>
+      <to>Success 1</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -412,8 +441,17 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>tr_qgis_projekt_auswertung</from>
-      <to>Success 1</to>
+      <from>tr_ts3_messpunkte_mitteln_statistik</from>
+      <to>tr_ts4_messpunkte_mitteln_statistik</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>tr_ts4_messpunkte_mitteln_statistik</from>
+      <to>tr_qgis_projekt_auswertung</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
