@@ -343,8 +343,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>187</xloc>
-      <yloc>274</yloc>
+      <xloc>260</xloc>
+      <yloc>273</yloc>
       </entry>
     <entry>
       <name>tr_ts4_messpunkte_mitteln_statistik</name>
@@ -352,7 +352,6 @@
       <type>TRANS</type>
       <filename>file:&#47;&#47;&#47;home&#47;stefan&#47;Projekte&#47;av_lokale_entzerrung&#47;kettle&#47;tr_ts4_messpunkte_mitteln_statistik.ktr</filename>
       <transname/>
-      <directory/>
       <arg_from_previous>N</arg_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
@@ -372,8 +371,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>527</xloc>
-      <yloc>273</yloc>
+      <xloc>485</xloc>
+      <yloc>272</yloc>
       </entry>
   </entries>
   <hops>
@@ -447,7 +446,7 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
+      <unconditional>Y</unconditional>
     </hop>
     <hop>
       <from>tr_ts4_messpunkte_mitteln_statistik</from>
@@ -456,9 +455,18 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
+      <unconditional>Y</unconditional>
     </hop>
   </hops>
   <notepads>
+    <notepad>
+      <note>TS3 und TS4 müssen nicht vorhanden sein. Die Transformation
+kann zwar nicht erfolgreich beendet werden, der Job
+wird aber weiter ausgeführt.</note>
+      <xloc>449</xloc>
+      <yloc>331</yloc>
+      <width>352</width>
+      <heigth>49</heigth>
+    </notepad>
   </notepads>
 </job>

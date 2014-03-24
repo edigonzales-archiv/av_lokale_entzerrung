@@ -97,7 +97,7 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>(Gemittelte) Differenzen TS4</from><to>nach Fs sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>nach Fs sortieren</from><to>Univariate Statistics</to><enabled>Y</enabled> </hop>  <hop> <from>(Gemittelte) Differenzen TS4</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Gemittelte Messungen speichern</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene gemittelte Messungen löschen</from><to>(Gemittelte) Differenzen TS4</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Univariate Statistics</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene Statistik löschen</from><to>Vorhandene gemittelte Messungen löschen</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Statistik in DB speichern</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>nach Fs sortieren</from><to>Univariate Statistics</to><enabled>Y</enabled> </hop>  <hop> <from>(Gemittelte) Differenzen TS4</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Gemittelte Messungen speichern</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene gemittelte Messungen löschen</from><to>(Gemittelte) Differenzen TS4</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Univariate Statistics</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene Statistik löschen</from><to>Vorhandene gemittelte Messungen löschen</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Statistik in DB speichern</to><enabled>Y</enabled> </hop>  <hop> <from>(Gemittelte) Differenzen TS4</from><to>nach Fs sortieren</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>(Gemittelte) Differenzen TS4</name>
     <type>TableInput</type>
@@ -383,6 +383,32 @@ FROM
     </step>
 
   <step>
+    <name>If field value is null</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <replaceAllByValue/>
+      <replaceAllMask/>
+      <selectFields>N</selectFields>
+      <selectValuesType>N</selectValuesType>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>601</xloc>
+      <yloc>311</yloc>
+      <draw>N</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Set SRS</name>
     <type>SetSRS</type>
     <description/>
@@ -597,8 +623,8 @@ FROM
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>581</xloc>
-      <yloc>119</yloc>
+      <xloc>584</xloc>
+      <yloc>122</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
