@@ -75,14 +75,58 @@
     </attributes>
   </connection>
   <connection>
-    <name>srsofaioi4531</name>
-    <server>srsofaioi4531.ktso.ch</server>
+    <name>rosebud2</name>
+    <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>sogis</database>
+    <database>rosebud2</database>
     <port>5432</port>
-    <username>bjsvwzie</username>
-    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe8f</password>
+    <username>mspublic</username>
+    <password>Encrypted 2be98afc86aa7f2e4a60abe65dc9ea6d9</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>srsofaioi4531</name>
+    <server>localhost</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>rosebud2</database>
+    <port>5432</port>
+    <username>stefan</username>
+    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe88</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>xanadu2_test</name>
+    <server>localhost</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>xanadu2_test</database>
+    <port>5432</port>
+    <username>stefan</username>
+    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe88</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -97,7 +141,7 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>(Gemittelte) Differenzen TS3</from><to>nach Fs sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>nach Fs sortieren</from><to>Univariate Statistics</to><enabled>Y</enabled> </hop>  <hop> <from>(Gemittelte) Differenzen TS3</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Gemittelte Messungen speichern</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene gemittelte Messungen löschen</from><to>(Gemittelte) Differenzen TS3</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Univariate Statistics</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene Statistik löschen</from><to>Vorhandene gemittelte Messungen löschen</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Statistik in DB speichern</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>(Gemittelte) Differenzen TS3</from><to>nach Fs sortieren</to><enabled>Y</enabled> </hop>  <hop> <from>nach Fs sortieren</from><to>Univariate Statistics</to><enabled>Y</enabled> </hop>  <hop> <from>(Gemittelte) Differenzen TS3</from><to>Set SRS</to><enabled>Y</enabled> </hop>  <hop> <from>Set SRS</from><to>Gemittelte Messungen speichern</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene gemittelte Messungen löschen</from><to>(Gemittelte) Differenzen TS3</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Vorhandene Statistik löschen</from><to>Vorhandene gemittelte Messungen löschen</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Statistik in DB speichern</to><enabled>Y</enabled> </hop>  <hop> <from>Infinity value -&gt; 0</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Univariate Statistics</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Infinity value -&gt; 0</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>(Gemittelte) Differenzen TS3</name>
     <type>TableInput</type>
@@ -251,7 +295,7 @@ FROM
         <format>0</format>
       </field>
       <field>
-        <name>fs_avg(stdDev)</name>
+        <name>std_new</name>
         <type>Number</type>
         <format>0</format>
       </field>
@@ -442,7 +486,7 @@ FROM
         </field>
         <field>
           <column_name>fs_stddev</column_name>
-          <stream_name>fs_avg(stdDev)</stream_name>
+          <stream_name>std_new</stream_name>
         </field>
         <field>
           <column_name>fs_min</column_name>
@@ -481,7 +525,7 @@ FROM
     <name>Univariate Statistics</name>
     <type>UnivariateStats</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
@@ -509,8 +553,8 @@ FROM
 </univariate_stats>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>760</xloc>
-      <yloc>122</yloc>
+      <xloc>726</xloc>
+      <yloc>118</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -599,6 +643,88 @@ FROM
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>581</xloc>
       <yloc>119</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Infinity value -&gt; 0</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>&#47;&#47;Script here
+var std = fs_avg_stddev;
+
+if (std &gt; 1000000)
+{
+   var std_new = 0;
+}
+else
+{
+   var std_new = std;
+}
+</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>std_new</name>
+        <rename>std_new</rename>
+        <type>Number</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>750</xloc>
+      <yloc>362</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>      <field>        <name>fs_avg(stdDev)</name>
+        <rename>fs_avg_stddev</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fs_avg(mean)</name>
+        <rename>fs_avg(mean)</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fs_avg(max)</name>
+        <rename>fs_avg(max)</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fs_avg(68th percentile)</name>
+        <rename>fs_avg(68th percentile)</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fs_avg(95th percentile)</name>
+        <rename>fs_avg(95th percentile)</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fs_avg(min)</name>
+        <rename>fs_avg(min)</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>        <select_unspecified>N</select_unspecified>
+    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>612</xloc>
+      <yloc>363</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
