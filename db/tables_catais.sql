@@ -439,3 +439,35 @@ CREATE INDEX idx_av_lokale_entzerrung_kontrollmessungen_bbp_the_geom
 
 --INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'kontrollmessungen_bbp', 'the_geom', 2, '21781', 'POINT');
 
+-----------------------------------------
+
+CREATE TABLE av_lokale_entzerrung.operate_kontrolliert
+(
+  ogc_fid serial NOT NULL,
+  gemeinde_operat character varying,
+  operat_bfs integer,
+  gemeinde character varying,
+  gem_bfs integer,
+  bemerkungen character varying,
+  wkb_geometry geometry,
+  status integer,
+  CONSTRAINT operate_kontrolliert_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE av_lokale_entzerrung.operate_kontrolliert OWNER TO av_verifikation;
+GRANT ALL ON TABLE av_lokale_entzerrung.operate_kontrolliert TO av_verifikation;
+GRANT SELECT ON TABLE av_lokale_entzerrung.operate_kontrolliert TO mspublic;
+GRANT SELECT ON TABLE av_lokale_entzerrung.operate_kontrolliert TO public;
+COMMENT ON COLUMN av_lokale_entzerrung.operate_kontrolliert.gemeinde_operat IS 'Entspricht (mehr oder weniger) den alten Gemeindegrenzen. Versucht die Geschichte/Herkunft eines Vermessungwerkes abzugrenzen (ohne Lose).';
+
+CREATE INDEX idx_av_lokale_entzerrung_operate_kontrolliert_wkb_geometry
+  ON av_lokale_entzerrung.operate_kontrolliert
+  USING gist
+  (wkb_geometry);
+
+--INSERT INTO geometry_columns VALUES ('"', 'av_lokale_entzerrung', 'operate_kontrolliert', 'wkb_geometry', 2, '21781', 'MULTIPOLYGON');
+
+-----------------------------------------
+
