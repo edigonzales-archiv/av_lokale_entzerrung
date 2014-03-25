@@ -456,8 +456,8 @@ CREATE TABLE av_lokale_entzerrung.operate_kontrolliert
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE av_lokale_entzerrung.operate_kontrolliert OWNER TO av_verifikation;
-GRANT ALL ON TABLE av_lokale_entzerrung.operate_kontrolliert TO av_verifikation;
+ALTER TABLE av_lokale_entzerrung.operate_kontrolliert OWNER TO stefan;
+GRANT ALL ON TABLE av_lokale_entzerrung.operate_kontrolliert TO stefan;
 GRANT SELECT ON TABLE av_lokale_entzerrung.operate_kontrolliert TO mspublic;
 GRANT SELECT ON TABLE av_lokale_entzerrung.operate_kontrolliert TO public;
 COMMENT ON COLUMN av_lokale_entzerrung.operate_kontrolliert.gemeinde_operat IS 'Entspricht (mehr oder weniger) den alten Gemeindegrenzen. Versucht die Geschichte/Herkunft eines Vermessungwerkes abzugrenzen (ohne Lose).';
