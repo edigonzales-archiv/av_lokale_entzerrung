@@ -449,7 +449,7 @@ CREATE TABLE av_lokale_entzerrung.operate_kontrolliert
   gemeinde character varying,
   gem_bfs integer,
   bemerkungen character varying,
-  wkb_geometry geometry,
+  wkb_geometry geometry(MULTIPOLYGON,21781),
   status integer,
   CONSTRAINT operate_kontrolliert_pkey PRIMARY KEY (ogc_fid)
 )
