@@ -68,13 +68,13 @@
   </connection>
   <connection>
     <name>srsofaioi4531</name>
-    <server>localhost</server>
+    <server>srsofaioi4531.ktso.ch</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>rosebud2</database>
+    <database>sogis</database>
     <port>5432</port>
-    <username>stefan</username>
-    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe88</password>
+    <username>bjsvwzie</username>
+    <password>Encrypted 2be98afc86aa7f29ea21ca97cdb80fe8f</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -410,7 +410,7 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
+      <unconditional>Y</unconditional>
     </hop>
     <hop>
       <from>START</from>
