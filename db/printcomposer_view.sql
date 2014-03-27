@@ -6,8 +6,7 @@ FROM
  SELECT *   
  FROM
  (
-  SELECT ts2.*, ts3.ts3_mean, ts3.ts3_stddev, ts3.ts3_min, ts3.ts3_max, ts3.ts3_68, ts3.ts3_95,
-         ts4.ts4_mean, ts4.ts4_stddev, ts4.ts4_min, ts4.ts4_max, ts4.ts4_68, ts4.ts4_95
+  SELECT ts2.ogc_fid, CASE WHEN ts2.operat_bfs IS NULL THEN ts3.operat_bfs ELSE ts2.operat_bfs END as operat_bfs, ts2.ts2_mean, ts2.ts2_stddev, ts2.ts2_min, ts2.ts2_max, ts2.ts2_68, ts2.ts2_95, ts3.ts3_mean, ts3.ts3_stddev, ts3.ts3_min, ts3.ts3_max, ts3.ts3_68, ts3.ts3_95, ts4.ts4_mean, ts4.ts4_stddev, ts4.ts4_min, ts4.ts4_max, ts4.ts4_68, ts4.ts4_95
   FROM
   (
    SELECT ogc_fid, operat_bfs, fs_mean::integer::text || ' mm' as ts2_mean, 
