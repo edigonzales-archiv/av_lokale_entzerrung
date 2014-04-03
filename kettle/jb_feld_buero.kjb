@@ -460,12 +460,12 @@
   </hops>
   <notepads>
     <notepad>
-      <note>TS3 und TS4 müssen nicht vorhanden sein. Die Transformation
+      <note>TS2, TS3 und TS4 müssen nicht vorhanden sein. Die Transformation
 kann zwar nicht erfolgreich beendet werden, der Job
 wird aber weiter ausgeführt.</note>
       <xloc>449</xloc>
       <yloc>331</yloc>
-      <width>352</width>
+      <width>379</width>
       <heigth>49</heigth>
     </notepad>
   </notepads>
